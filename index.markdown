@@ -250,7 +250,7 @@ layout: default
 
 <div class="hero">
   <div class="logo-container">
-    <img src="/assets/images/vlrb-logo-dark.svg" alt="vlrb logo" class="vlrb-logo">
+    <img src="https://weberswords.github.io/vlrb/assets/images/vlrb-logo-dark.svg" alt="vlrb logo" class="vlrb-logo">
   </div>
   <h1>vlrb</h1>
   <p class="tagline">Stories beyond words</p>
