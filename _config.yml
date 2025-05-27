@@ -1,0 +1,25 @@
+title: vlrb
+email: support@vlrb.app
+description: >-
+  Stories beyond words. Share authentic video moments with friends and build 
+  meaningful connections through visual storytelling.
+baseurl: ""
+repository: "weberswords/vlrb"
+url: "https://weberswords.github.io"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Custom variables
+app_store_url: "https://apps.apple.com/app/vlrb" # Update with actual URL
+support_email: "support@vlrb.app"
+company_name: "studio w labs"
+company_address: "732 S 6TH ST, STE R, LAS VEGAS, NV 89101"
+social_price_monthly: "$4.99"
+social_price_yearly: "$49.99"
+creator_price_monthly: "$9.99"
+creator_price_yearly: "$99.99"
+studio_w_labs_url: "https://studiowlabs.com"
