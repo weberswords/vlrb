@@ -1,14 +1,17 @@
 {
   "applinks": {
-    "details": [
-      {
-        "appIDs": ["H7GP37J56F.com.studiowonw.albondigas"],
-        "components": [
-          {
-            "/": "*"
-          }
-        ]
-      }
-    ]
-  }
+    "apps": [],
+      "details": [
+        {
+          "appID": "H7GP37J56F.com.studiowonw.albondigas",
+          "paths": ["*"]
+        }
+      ]
+    },
+      "webcredentials": {
+      "apps": [
+        "H7GP37J56F.com.studiowonw.albondigas"
+      ]
+    }
 }
+
