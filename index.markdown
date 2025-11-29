@@ -441,8 +441,8 @@ layout: default
   </div>
   <h1>vlrb</h1>
   <p class="tagline">Stories beyond words</p>
-  <p class="subtitle">Share the moments that text can't capture. Send video letters to the people who matter most, like passing a note to a dear friend.</p>
-  <a href="{{ site.app_store_url }}" class="cta-button">Download on App Store</a>
+  <p class="subtitle">Share the moments that text can't capture. For the people who matter most, like passing a note to a dear friend.</p>
+  <a href="{{ site.app_store_url }}" class="cta-button">Start Sharing Moments</a>
 </div>
 
 <div class="section-divider">
@@ -490,15 +490,15 @@ layout: default
 
   <div class="pricing-tiers">
     <article class="tier">
-      <div class="tier-icon">🌱</div>
-      <h3>Free</h3>
-      <div class="price">$0<span class="period"> forever</span></div>
-      <p class="price-note">Start connecting today</p>
+      <div class="tier-icon">✨</div>
+      <h3>Creator</h3>
+      <div class="price">{{ site.creator_price_monthly }}<span class="period">/month</span></div>
+      <p class="price-note">Or {{ site.creator_price_yearly }}/year</p>
       <ul>
-        <li>Videos up to 5 minutes</li>
-        <li>Cloud storage for your vlrbs</li>
-        <li>Clean, ad-free experience</li>
-        <li>Share with anyone</li>
+        <li>Everything in Social</li>
+        <li>Unlimited extra time</li>
+        <li>Custom expiration settings</li>
+        <li>Picture-in-Picture viewing</li>
       </ul>
     </article>
 
@@ -516,15 +516,15 @@ layout: default
     </article>
 
     <article class="tier">
-      <div class="tier-icon">✨</div>
-      <h3>Creator</h3>
-      <div class="price">{{ site.creator_price_monthly }}<span class="period">/month</span></div>
-      <p class="price-note">Or {{ site.creator_price_yearly }}/year</p>
+      <div class="tier-icon">🌱</div>
+      <h3>Free</h3>
+      <div class="price">$0<span class="period"> forever</span></div>
+      <p class="price-note">Always available</p>
       <ul>
-        <li>Everything in Social</li>
-        <li>Unlimited extra time</li>
-        <li>Custom expiration settings</li>
-        <li>Picture-in-Picture viewing</li>
+        <li>Videos up to 5 minutes</li>
+        <li>Cloud storage for your vlrbs</li>
+        <li>Clean, ad-free experience</li>
+        <li>Share with anyone</li>
       </ul>
     </article>
   </div>
@@ -561,6 +561,6 @@ layout: default
 
 <div class="closing">
   <h2>Ready to share something real?</h2>
-  <p>Download vlrb and send your first video letter today. No account needed to start, just open and record.</p>
-  <a href="{{ site.app_store_url }}" class="cta-button">Get Started</a>
+  <p>Open vlrb and start capturing moments. No account needed, just open and record.</p>
+  <a href="{{ site.app_store_url }}" class="cta-button">Start Sharing Moments</a>
 </div>
