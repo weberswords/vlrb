@@ -98,42 +98,6 @@ layout: default
     font-size: 2.5em;
   }
   
-  .pricing-toggle {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .toggle-container {
-    display: inline-flex;
-    align-items: center;
-    background: #f0f0f0;
-    border-radius: 30px;
-    padding: 5px;
-  }
-  
-  .toggle-option {
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-weight: 500;
-  }
-  
-  .toggle-option.active {
-    background: #667eea;
-    color: white;
-  }
-  
-  .toggle-option .discount {
-    font-size: 0.8em;
-    margin-left: 5px;
-    color: #28a745;
-  }
-  
-  .toggle-option.active .discount {
-    color: #90ee90;
-  }
-  
   .pricing-tiers {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -176,20 +140,6 @@ layout: default
   .price .period {
     font-size: 0.5em;
     color: #666;
-  }
-  
-  .price-annual {
-    display: none;
-  }
-  
-  .savings-badge {
-    background: #28a745;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-    font-size: 0.8em;
-    margin: 10px 0;
-    display: inline-block;
   }
   
   .tier ul {
@@ -281,62 +231,37 @@ layout: default
 </div>
 
 <div class="pricing">
-  <h2>Simple, Transparent Pricing</h2>
-  
-  <div class="pricing-toggle">
-    <div class="toggle-container">
-      <div class="toggle-option active" onclick="togglePricing('monthly')">
-        Monthly
-      </div>
-      <div class="toggle-option" onclick="togglePricing('annual')">
-        Annual <span class="discount">Save 17%</span>
-      </div>
-    </div>
-  </div>
-  
+  <h2>Choose Your Plan</h2>
+
   <div class="pricing-tiers">
     <div class="tier">
       <h3>Free</h3>
-      <div class="price price-monthly">$0<span class="period">/forever</span></div>
-      <div class="price price-annual" style="display: none;">$0<span class="period">/forever</span></div>
+      <div class="price">$0<span class="period">/forever</span></div>
       <ul>
-        <li>Share video moments up to 2 minutes</li>
+        <li>Share video moments up to 5 minutes</li>
         <li>Build meaningful connections</li>
         <li>Clean, ad-free interface</li>
         <li>Cloud storage for your vlrbs</li>
       </ul>
     </div>
-    
+
     <div class="tier featured">
       <h3>Social</h3>
-      <div class="price price-monthly">$4.99<span class="period">/month</span></div>
-      <div class="price price-annual" style="display: none;">
-        $49.99<span class="period">/year</span>
-      </div>
-      <div class="savings-badge price-annual" style="display: none;">Save $10/year</div>
       <ul>
         <li>Everything in Free</li>
         <li>Videos up to 10 minutes</li>
         <li>"Live Now" notifications</li>
         <li>3 "One more minute" extensions/week</li>
-        <li>Priority delivery</li>
       </ul>
     </div>
-    
+
     <div class="tier">
       <h3>Creator</h3>
-      <div class="price price-monthly">$9.99<span class="period">/month</span></div>
-      <div class="price price-annual" style="display: none;">
-        $99.99<span class="period">/year</span>
-      </div>
-      <div class="savings-badge price-annual" style="display: none;">Save $20/year</div>
       <ul>
         <li>Everything in Social</li>
         <li>Unlimited "One more minute" extensions</li>
         <li>Custom expiration controls</li>
         <li>Picture-in-Picture support</li>
-        <li>Priority support</li>
-        <li>Advanced analytics</li>
       </ul>
     </div>
   </div>
@@ -357,7 +282,7 @@ layout: default
   
   <div class="faq-item">
     <h4>What happens when videos expire?</h4>
-    <p>Expired videos are automatically removed from our servers. With our Creator tier, you can customize expiration times or keep videos indefinitely.</p>
+    <p>Expired videos are automatically removed from our servers. With our Creator tier, you can customize expiration times. Videos can be stored for up to 1 year.</p>
   </div>
   
   <div class="faq-item">
@@ -366,22 +291,3 @@ layout: default
   </div>
 </div>
 
-<script>
-function togglePricing(type) {
-  const monthlyElements = document.querySelectorAll('.price-monthly');
-  const annualElements = document.querySelectorAll('.price-annual');
-  const toggleOptions = document.querySelectorAll('.toggle-option');
-  
-  if (type === 'monthly') {
-    monthlyElements.forEach(el => el.style.display = 'block');
-    annualElements.forEach(el => el.style.display = 'none');
-    toggleOptions[0].classList.add('active');
-    toggleOptions[1].classList.remove('active');
-  } else {
-    monthlyElements.forEach(el => el.style.display = 'none');
-    annualElements.forEach(el => el.style.display = 'block');
-    toggleOptions[0].classList.remove('active');
-    toggleOptions[1].classList.add('active');
-  }
-}
-</script>

@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy for vlrb
 
-*Last updated: May 26, 2025*
+*Last updated: November 29, 2025*
 
 ## Introduction
 
@@ -118,7 +118,7 @@ Each service has its own privacy policy governing the use of your information.
 ## Data Retention
 
 - **Free accounts**: Videos expire based on default settings
-- **Premium/Creator accounts**: Videos expire based on your custom settings
+- **Social/Creator accounts**: Videos expire based on your custom settings
 - **Account data**: Retained until you delete your account
 - **Deleted content**: Removed from our servers within 30 days
 
