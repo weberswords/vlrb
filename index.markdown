@@ -313,7 +313,7 @@ layout: default
   }
 
   .tier li::before {
-    content: "~";
+    content: "✓";
     color: var(--sage-green);
     font-weight: 600;
     flex-shrink: 0;
@@ -446,7 +446,7 @@ layout: default
 </div>
 
 <div class="section-divider">
-  <span class="icon">~</span>
+  <span class="icon">✨</span>
 </div>
 
 <section class="features-section">
@@ -455,25 +455,25 @@ layout: default
 
   <div class="features">
     <article class="feature">
-      <div class="feature-icon">~</div>
+      <div class="feature-icon">☁️</div>
       <h3>Light as a letter</h3>
       <p>Videos live in the cloud, not on your phone. Share as many moments as you want without worrying about storage.</p>
     </article>
 
     <article class="feature">
-      <div class="feature-icon">~</div>
+      <div class="feature-icon">🕰️</div>
       <h3>Take your time</h3>
       <p>Say everything you need to say. Share videos up to 10 minutes long, because some stories need room to breathe.</p>
     </article>
 
     <article class="feature">
-      <div class="feature-icon">~</div>
+      <div class="feature-icon">💛</div>
       <h3>Real connection</h3>
       <p>See their smile. Hear their laugh. Share the warmth that only face-to-face can bring, even from far away.</p>
     </article>
 
     <article class="feature">
-      <div class="feature-icon">~</div>
+      <div class="feature-icon">🔒</div>
       <h3>Just between us</h3>
       <p>Your moments stay private. No public feeds, no algorithms, no ads. Just the people you choose to share with.</p>
     </article>
@@ -481,7 +481,7 @@ layout: default
 </section>
 
 <div class="section-divider">
-  <span class="icon">~</span>
+  <span class="icon">✨</span>
 </div>
 
 <section class="pricing">
@@ -490,7 +490,7 @@ layout: default
 
   <div class="pricing-tiers">
     <article class="tier">
-      <div class="tier-icon">~</div>
+      <div class="tier-icon">🌱</div>
       <h3>Free</h3>
       <div class="price">$0<span class="period"> forever</span></div>
       <p class="price-note">Start connecting today</p>
@@ -503,7 +503,7 @@ layout: default
     </article>
 
     <article class="tier featured">
-      <div class="tier-icon">~</div>
+      <div class="tier-icon">☕</div>
       <h3>Social</h3>
       <div class="price">{{ site.social_price_monthly }}<span class="period">/month</span></div>
       <p class="price-note">Or {{ site.social_price_yearly }}/year</p>
@@ -516,7 +516,7 @@ layout: default
     </article>
 
     <article class="tier">
-      <div class="tier-icon">~</div>
+      <div class="tier-icon">✨</div>
       <h3>Creator</h3>
       <div class="price">{{ site.creator_price_monthly }}<span class="period">/month</span></div>
       <p class="price-note">Or {{ site.creator_price_yearly }}/year</p>
@@ -531,7 +531,7 @@ layout: default
 </section>
 
 <div class="section-divider">
-  <span class="icon">~</span>
+  <span class="icon">✨</span>
 </div>
 
 <section class="faq">
