@@ -16,7 +16,7 @@ permalink: /support/
 5. Hit send!
 
 ### How long can my videos be?
-- **Free**: Up to 2 minutes per vlrb
+- **Free**: Up to 5 minutes per vlrb
 - **Social**: Up to 10 minutes per vlrb
 - **Creator**: Up to 10 minutes per vlrb with unlimited extensions
 
@@ -31,7 +31,7 @@ When you're recording and approaching your time limit, you can tap "one more min
 No! Videos are stored in the cloud by default. You can clear your local storage at anytime in settings. You can download those videos again by watching them. They only use your phone storage if you explicitly choose to save them to your device.
 
 ### Can I save vlrbs permanently?
-Yes! You can save any vlrb to your camera roll by tapping the download button. Creator subscribers can also set custom expiration times or keep vlrbs indefinitely in the cloud.
+Yes! You can save any vlrb to your camera roll by tapping the download button. Creator subscribers can also set custom expiration times. Videos can be stored in the cloud for up to 1 year.
 
 ### What happens to expired vlrbs?
 Expired vlrbs are automatically deleted from our servers and cannot be recovered. Make sure to save any vlrbs you want to keep before they expire.
@@ -124,7 +124,6 @@ Still need help? We're here for you!
 **Email**: {{ site.support_email }}  
 **Response time**: Usually within 24 hours
 
-**Creator subscribers**: Priority support with faster response times
 
 When contacting support, please include:
 - Your vlrb username
