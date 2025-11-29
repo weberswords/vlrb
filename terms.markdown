@@ -6,7 +6,7 @@ permalink: /terms/
 
 # Terms and Conditions for vlrb
 
-*Last updated: May 26, 2025*
+*Last updated: November 29, 2025*
 
 ## 1. Agreement to Terms
 
@@ -21,7 +21,23 @@ vlrb is a video messaging application that allows users to share short video mes
 - Cloud-based video storage and sharing
 - iOS mobile application
 
-## 3. User Accounts
+## 3. Our Commitments to You
+
+We believe in being transparent about our values and commitments:
+
+### Minimal Data Loss
+We design our systems so that you never lose more than 10 seconds of recorded content due to technical issues.
+
+### Ad-Free Experience
+vlrb will never show advertisements. Our premium subscription tiers allow us to keep the app ad-free for everyone.
+
+### Free Tier Promise
+Free tier accounts will always receive the core functionality we promise. We believe in providing genuine value at every tier.
+
+### Responsible Storage
+We strive to be good stewards of your device space. We optimize storage usage and give you control over what stays on your device.
+
+## 4. User Accounts
 
 ### Account Creation
 - You must provide accurate and complete information
@@ -34,24 +50,30 @@ vlrb is a video messaging application that allows users to share short video mes
 - You must notify us immediately of any unauthorized use
 - We may suspend or terminate accounts that violate these Terms
 
-## 4. Subscriptions and Payments
+## 5. Subscriptions and Payments
 
 ### Free Tier
 - Basic features are available at no cost
+- Videos up to 5 minutes in length
 - Subject to usage limitations
 
 ### Premium Tiers
-- Premium: $2.99/month
-- Creator: $4.99/month
+- **Social**: Enhanced sharing features
+- **Creator**: Professional features for content creators
 - Billed through Apple App Store
 - Auto-renewal unless cancelled 24 hours before period ends
 - Prices subject to change with notice
+
+### Video Retention
+- Videos may be stored for up to 1 year
+- We do not guarantee indefinite storage of your content
+- We recommend keeping local copies of important videos
 
 ### Refunds
 - Refunds handled according to Apple's App Store policies
 - No refunds for partial subscription periods
 
-## 5. User Content
+## 6. User Content
 
 ### Your Content
 - You retain ownership of videos you create
@@ -70,7 +92,7 @@ You agree not to share content that:
 ### Content Removal
 We reserve the right to remove content that violates these Terms without notice.
 
-## 6. Acceptable Use
+## 7. Acceptable Use
 
 You agree not to:
 - Use the App for illegal purposes
@@ -81,7 +103,7 @@ You agree not to:
 - Resell or commercialize the service
 - Violate others' privacy
 
-## 7. Intellectual Property
+## 8. Intellectual Property
 
 ### Our Property
 - vlrb name, logo, and branding are our trademarks
@@ -91,17 +113,17 @@ You agree not to:
 ### Your License to Us
 By posting content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, and distribute your content solely for providing the service.
 
-## 8. Privacy
+## 9. Privacy
 
 Your use of vlrb is subject to our Privacy Policy, which is incorporated into these Terms by reference.
 
-## 9. Third-Party Services
+## 10. Third-Party Services
 
 - The App integrates with third-party services (Firebase, Apple services)
 - We are not responsible for third-party services
 - Your use of third-party services is governed by their terms
 
-## 10. Disclaimers
+## 11. Disclaimers
 
 THE APP IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
 - MERCHANTABILITY
@@ -109,21 +131,21 @@ THE APP IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, 
 - NON-INFRINGEMENT
 - UNINTERRUPTED OR ERROR-FREE OPERATION
 
-## 11. Limitation of Liability
+## 12. Limitation of Liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY LAW:
 - We are not liable for indirect, incidental, or consequential damages
 - Our total liability is limited to the amount you paid us in the past 12 months
 - Some jurisdictions don't allow these limitations
 
-## 12. Indemnification
+## 13. Indemnification
 
 You agree to indemnify and hold harmless vlrb, its affiliates, and their respective officers, directors, employees, and agents from any claims, damages, or expenses arising from:
 - Your use of the App
 - Your violation of these Terms
 - Your violation of any third-party rights
 
-## 13. Termination
+## 14. Termination
 
 ### By You
 - You may terminate by deleting your account
@@ -137,17 +159,17 @@ You agree to indemnify and hold harmless vlrb, its affiliates, and their respect
 - Your right to use the App ceases immediately
 - Provisions that should survive termination will remain in effect
 
-## 14. Changes to Terms
+## 15. Changes to Terms
 
 - We may modify these Terms at any time
 - Material changes will be notified via the App or email
 - Continued use after changes constitutes acceptance
 
-## 15. Governing Law
+## 16. Governing Law
 
 These Terms are governed by the laws of [Your State/Country], without regard to conflict of law principles.
 
-## 16. Dispute Resolution
+## 17. Dispute Resolution
 
 ### Informal Resolution
 We encourage you to contact us first to resolve disputes informally.
@@ -158,7 +180,7 @@ Any disputes not resolved informally shall be resolved through binding arbitrati
 ### Class Action Waiver
 You waive any right to bring claims as a class or collective action.
 
-## 17. General Provisions
+## 18. General Provisions
 
 ### Entire Agreement
 These Terms constitute the entire agreement between you and vlrb.
@@ -172,7 +194,7 @@ No waiver of any term shall be deemed a further waiver.
 ### Assignment
 We may assign these Terms; you may not assign them without our consent.
 
-## 18. Contact Information
+## 19. Contact Information
 
 For questions about these Terms, contact us at:
 
@@ -182,7 +204,7 @@ For questions about these Terms, contact us at:
 {{ site.company_name }}  
 {{ site.company_address }}
 
-## 19. Apple-Specific Terms
+## 20. Apple-Specific Terms
 
 ### Apple's Role
 - Apple has no obligation to furnish maintenance or support
