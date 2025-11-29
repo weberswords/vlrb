@@ -1,0 +1,409 @@
+---
+---
+
+// Custom Cozy Color Palette
+$cream-background: #F5F1E8;
+$warm-paper: #FFF8F0;
+$aged-paper: #F5E6D3;
+$leather-brown: #7A5F3A;
+$ink-blue-black: #2C3539;
+$dusty-rose: #D4978A;
+$terracotta: #C87E70;
+$sage-green: #A8B5A0;
+$muted-teal: #8BA89F;
+$text-brown: #3A342F;
+$text-brown-light: #4A3F35;
+$border-tan: #E3DDD3;
+$border-warm: #D9D0C3;
+
+// Override minima variables before import
+$brand-color: $leather-brown;
+$brand-color-light: lighten($leather-brown, 30%);
+$brand-color-dark: darken($leather-brown, 15%);
+
+$text-color: $text-brown;
+$background-color: $cream-background;
+$code-background-color: $aged-paper;
+
+$grey-color: #6B5E52;
+$grey-color-light: $border-tan;
+$grey-color-dark: $text-brown-light;
+
+$table-text-color: $text-brown;
+$table-zebra-color: rgba($aged-paper, 0.5);
+$table-header-bg-color: $aged-paper;
+$table-header-border: $border-warm;
+$table-border-color: $border-tan;
+
+$link-base-color: $leather-brown;
+$link-visited-color: darken($leather-brown, 10%);
+$link-hover-color: $terracotta;
+
+@import "minima";
+
+// Base Styles
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $cream-background;
+  color: $text-brown;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Typography with cozy feel
+h1, h2, h3, h4, h5, h6 {
+  color: $text-brown;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $border-tan;
+}
+
+h3 {
+  font-size: 1.35rem;
+  color: $leather-brown;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: $text-brown-light;
+}
+
+// Links
+a {
+  color: $leather-brown;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    color: $terracotta;
+    border-bottom-color: $terracotta;
+  }
+
+  &:visited {
+    color: darken($leather-brown, 5%);
+  }
+}
+
+// Site Header - Cozy Navigation
+.site-header {
+  background-color: $warm-paper;
+  border-bottom: 1px solid $border-tan;
+  min-height: 60px;
+
+  .wrapper {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $text-brown !important;
+  letter-spacing: -0.02em;
+
+  &:hover {
+    color: $leather-brown !important;
+    text-decoration: none;
+  }
+}
+
+.site-nav {
+  .page-link {
+    color: $text-brown-light;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    margin-left: 1.5rem;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: $leather-brown;
+      border-bottom-color: $dusty-rose;
+    }
+  }
+}
+
+// Site Footer
+.site-footer {
+  background-color: $aged-paper;
+  border-top: 1px solid $border-tan;
+  padding: 2rem 0;
+
+  .footer-heading {
+    color: $text-brown;
+  }
+
+  .contact-list,
+  .social-media-list {
+    a {
+      color: $leather-brown;
+
+      &:hover {
+        color: $terracotta;
+      }
+    }
+  }
+
+  .footer-col-wrapper {
+    color: $text-brown-light;
+  }
+}
+
+// Content wrapper
+.page-content {
+  padding: 2.5rem 0;
+}
+
+.wrapper {
+  max-width: 800px;
+  padding: 0 1.5rem;
+}
+
+// Post and Page Content
+.post-content,
+.page-content .wrapper {
+  p {
+    margin-bottom: 1.25rem;
+    color: $text-brown;
+  }
+
+  ul, ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+
+    li {
+      margin-bottom: 0.5rem;
+      color: $text-brown;
+    }
+  }
+
+  blockquote {
+    border-left: 4px solid $dusty-rose;
+    background-color: rgba($aged-paper, 0.5);
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+
+    p {
+      color: $text-brown-light;
+      font-style: italic;
+      margin-bottom: 0;
+    }
+  }
+
+  code {
+    background-color: $aged-paper;
+    border: 1px solid $border-tan;
+    border-radius: 4px;
+    padding: 0.15rem 0.4rem;
+    font-size: 0.9em;
+    color: $ink-blue-black;
+  }
+
+  pre {
+    background-color: $aged-paper;
+    border: 1px solid $border-tan;
+    border-radius: 8px;
+    padding: 1rem;
+    overflow-x: auto;
+
+    code {
+      background: none;
+      border: none;
+      padding: 0;
+    }
+  }
+
+  hr {
+    border: none;
+    border-top: 2px solid $border-tan;
+    margin: 2.5rem 0;
+  }
+}
+
+// Post Header
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-title,
+.page-heading {
+  font-size: 2.25rem;
+  color: $text-brown;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.post-meta {
+  color: $grey-color;
+  font-size: 0.9rem;
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  background-color: $warm-paper;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid $border-tan;
+
+  th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid $border-tan;
+  }
+
+  th {
+    background-color: $aged-paper;
+    font-weight: 600;
+    color: $text-brown;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  tr:hover {
+    background-color: rgba($aged-paper, 0.3);
+  }
+}
+
+// Forms (for future use)
+input, textarea, select {
+  background-color: $warm-paper;
+  border: 1px solid $border-tan;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  color: $text-brown;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:focus {
+    outline: none;
+    border-color: $dusty-rose;
+    box-shadow: 0 0 0 3px rgba($dusty-rose, 0.15);
+  }
+
+  &::placeholder {
+    color: rgba($text-brown, 0.5);
+  }
+}
+
+// Buttons
+button, .button, .btn {
+  display: inline-block;
+  background-color: $leather-brown;
+  color: $warm-paper;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+
+  &:hover {
+    background-color: darken($leather-brown, 8%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba($text-brown, 0.15);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+// Cards and Boxes (general utility)
+.card, .box {
+  background-color: $warm-paper;
+  border: 1px solid $border-tan;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 20px rgba($text-brown, 0.08);
+  }
+}
+
+// Responsive adjustments
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .wrapper {
+    padding: 0 1rem;
+  }
+
+  .site-nav .page-link {
+    margin-left: 0;
+    padding: 0.75rem 0;
+  }
+}
+
+// Scroll to top indicator and selection colors
+::selection {
+  background-color: rgba($dusty-rose, 0.3);
+  color: $text-brown;
+}
+
+::-moz-selection {
+  background-color: rgba($dusty-rose, 0.3);
+  color: $text-brown;
+}
+
+// Focus states for accessibility
+:focus-visible {
+  outline: 2px solid $dusty-rose;
+  outline-offset: 2px;
+}
+
+// Skip link for accessibility
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: $leather-brown;
+  color: $warm-paper;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+
+  &:focus {
+    top: 0;
+  }
+}

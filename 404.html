@@ -1,25 +1,80 @@
 ---
 permalink: /404.html
-layout: page
+layout: default
 ---
 
 <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
+  .error-container {
+    max-width: 500px;
+    margin: 4rem auto;
     text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(145deg, #FFF8F0 0%, #F5E6D3 100%);
+    border: 1px solid #E3DDD3;
+    border-radius: 16px;
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
+
+  .error-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #D4978A;
+  }
+
+  .error-container h1 {
+    font-size: 4rem;
     line-height: 1;
-    letter-spacing: -1px;
+    color: #3A342F;
+    margin: 0 0 0.5rem 0;
+    font-weight: 700;
+  }
+
+  .error-container h2 {
+    font-size: 1.25rem;
+    color: #7A5F3A;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    border: none;
+  }
+
+  .error-container p {
+    color: #4A3F35;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-link {
+    display: inline-block;
+    background: #7A5F3A;
+    color: #FFF8F0;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+
+  .home-link:hover {
+    background: #6A5232;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(122, 95, 58, 0.2);
+    color: #FFF8F0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .home-link {
+      transition: none;
+    }
+    .home-link:hover {
+      transform: none;
+    }
   }
 </style>
 
-<div class="container">
+<div class="error-container">
+  <div class="error-icon">~</div>
   <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <h2>Page not found</h2>
+  <p>It seems this page has wandered off. Perhaps it's out collecting stories somewhere. Let's get you back home.</p>
+  <a href="/" class="home-link">Return Home</a>
 </div>
