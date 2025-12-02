@@ -245,20 +245,6 @@ layout: default
     background: linear-gradient(to bottom, var(--warm-paper) 0%, rgba(212, 151, 138, 0.05) 100%);
   }
 
-  .popular-badge {
-    position: absolute;
-    top: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--dusty-rose-dark);
-    color: var(--warm-paper);
-    font-size: 0.75rem;
-    font-weight: 600;
-    padding: 0.35rem 1rem;
-    border-radius: 20px;
-    letter-spacing: 0.02em;
-  }
-
   .coming-soon {
     font-size: 0.85rem;
     color: var(--text-brown-light);
@@ -535,7 +521,6 @@ layout: default
     </article>
 
     <article class="tier featured" role="listitem" aria-labelledby="supporter-tier">
-      <span class="popular-badge">Most Popular</span>
       <div class="tier-icon" aria-hidden="true">☕</div>
       <h3 id="supporter-tier">Supporter</h3>
       <div class="price">{{ site.supporter_price_monthly }}<span class="period">/month</span></div>
