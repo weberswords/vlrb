@@ -245,8 +245,7 @@ layout: default
     background: linear-gradient(to bottom, var(--warm-paper) 0%, rgba(212, 151, 138, 0.05) 100%);
   }
 
-  .tier.featured::before {
-    content: 'Most Popular';
+  .popular-badge {
     position: absolute;
     top: -12px;
     left: 50%;
@@ -258,6 +257,15 @@ layout: default
     padding: 0.35rem 1rem;
     border-radius: 20px;
     letter-spacing: 0.02em;
+  }
+
+  .coming-soon {
+    font-size: 0.85rem;
+    color: var(--text-brown-light);
+    font-style: italic;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--border-tan);
   }
 
   .tier-icon {
@@ -419,6 +427,24 @@ layout: default
     }
   }
 
+  /* Skip link for accessibility */
+  .skip-link {
+    position: absolute;
+    top: -100%;
+    left: 1rem;
+    background: var(--leather-brown);
+    color: var(--warm-paper);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0 0 8px 8px;
+    z-index: 1000;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .skip-link:focus {
+    top: 0;
+  }
+
   /* Reduced motion for accessibility */
   @media (prefers-reduced-motion: reduce) {
     .feature,
@@ -435,6 +461,9 @@ layout: default
   }
 </style>
 
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<main id="main-content">
 <div class="hero">
   <div class="logo-container">
     <img src="/assets/images/vlrb-logo-dark.svg" alt="vlrb logo" class="vlrb-logo">
@@ -488,43 +517,52 @@ layout: default
   <h2 class="section-title">Choose your pace</h2>
   <p class="pricing-intro">Whether you send a quick hello or a heartfelt story, there's a way to connect that fits you.</p>
 
-  <div class="pricing-tiers">
-    <article class="tier">
-      <div class="tier-icon">✨</div>
-      <h3>Creator</h3>
+  <div class="pricing-tiers" role="list" aria-label="Subscription tiers">
+    <article class="tier" role="listitem" aria-labelledby="creator-tier">
+      <div class="tier-icon" aria-hidden="true">✨</div>
+      <h3 id="creator-tier">Creator</h3>
       <div class="price">{{ site.creator_price_monthly }}<span class="period">/month</span></div>
       <p class="price-note">Or {{ site.creator_price_yearly }}/year</p>
-      <ul>
-        <li>Everything in Social</li>
-        <li>Unlimited extra time</li>
-        <li>Custom expiration settings</li>
-        <li>Picture-in-Picture viewing</li>
-      </ul>
-    </article>
-
-    <article class="tier featured">
-      <div class="tier-icon">☕</div>
-      <h3>Social</h3>
-      <div class="price">{{ site.social_price_monthly }}<span class="period">/month</span></div>
-      <p class="price-note">Or {{ site.social_price_yearly }}/year</p>
-      <ul>
-        <li>Everything in Free</li>
+      <ul aria-label="Creator tier features">
+        <li>Everything in Supporter, plus:</li>
         <li>Videos up to 10 minutes</li>
-        <li>"Live Now" so friends can watch along</li>
-        <li>3 extra minutes per week when you need them</li>
+        <li>Unlimited +1 minute boosts</li>
+        <li>Up to 1 year message retention</li>
+        <li>Picture-in-Picture viewing</li>
+        <li>Playback up to 3x speed</li>
       </ul>
+      <p class="coming-soon">Coming soon: 4 extra themes, Groups, 3 Gift Passes/year</p>
     </article>
 
-    <article class="tier">
-      <div class="tier-icon">🌱</div>
-      <h3>Free</h3>
+    <article class="tier featured" role="listitem" aria-labelledby="supporter-tier">
+      <span class="popular-badge">Most Popular</span>
+      <div class="tier-icon" aria-hidden="true">☕</div>
+      <h3 id="supporter-tier">Supporter</h3>
+      <div class="price">{{ site.supporter_price_monthly }}<span class="period">/month</span></div>
+      <p class="price-note">Or {{ site.supporter_price_yearly }}/year</p>
+      <ul aria-label="Supporter tier features">
+        <li>Everything in Free, plus:</li>
+        <li>3 bonus +1 minute boosts per week</li>
+        <li>Up to 14 days message retention</li>
+        <li>See when friends are active</li>
+        <li>Playback up to 3x speed</li>
+        <li>Your subscription keeps vlrb ad-free for everyone</li>
+      </ul>
+      <p class="coming-soon">Coming soon: 2 extra themes, Groups, 1 Gift Pass/year</p>
+    </article>
+
+    <article class="tier" role="listitem" aria-labelledby="free-tier">
+      <div class="tier-icon" aria-hidden="true">🌱</div>
+      <h3 id="free-tier">Free</h3>
       <div class="price">$0<span class="period"> forever</span></div>
       <p class="price-note">Always available</p>
-      <ul>
+      <ul aria-label="Free tier features">
         <li>Videos up to 5 minutes</li>
+        <li>7-day message retention</li>
+        <li>Playback up to 2x speed</li>
+        <li>2 themes included</li>
+        <li>End-to-end encryption</li>
         <li>Cloud storage for your vlrbs</li>
-        <li>Clean, ad-free experience</li>
-        <li>Share with anyone</li>
       </ul>
     </article>
   </div>
@@ -564,3 +602,4 @@ layout: default
   <p>Open vlrb and start capturing moments. No account needed, just open and record.</p>
   <a href="{{ site.app_store_url }}" class="cta-button">Start Sharing Moments</a>
 </div>
+</main>

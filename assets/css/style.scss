@@ -8,6 +8,7 @@ $aged-paper: #F5E6D3;
 $leather-brown: #7A5F3A;
 $ink-blue-black: #2C3539;
 $dusty-rose: #D4978A;
+$dusty-rose-text: #B87A6C; // Darker variant for text - meets WCAG AA contrast
 $terracotta: #C87E70;
 $sage-green: #A8B5A0;
 $muted-teal: #8BA89F;
@@ -462,7 +463,7 @@ button, .button, .btn {
         content: "•";
         position: absolute;
         left: 0;
-        color: $dusty-rose;
+        color: $dusty-rose-text;
         font-weight: bold;
       }
     }

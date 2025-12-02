@@ -17,13 +17,13 @@ permalink: /support/
 
 ### How long can my videos be?
 - **Free**: Up to 5 minutes per vlrb
-- **Social**: Up to 10 minutes per vlrb
-- **Creator**: Up to 10 minutes per vlrb with unlimited extensions
+- **Supporter**: Up to 5 minutes per vlrb (with 3 bonus +1 minute boosts per week)
+- **Creator**: Up to 10 minutes per vlrb with unlimited +1 minute boosts
 
-### What is a "one more minute" extension?
-When you're recording and approaching your time limit, you can tap "one more minute" to extend your recording:
-- **Social**: 3 extensions per week
-- **Creator**: Unlimited extensions
+### What is a "+1 minute boost"?
+When you're recording and approaching your time limit, you can tap "+1 minute" to extend your recording:
+- **Supporter**: 3 boosts per week
+- **Creator**: Unlimited boosts
 
 ## Storage & Technical
 
@@ -48,8 +48,8 @@ Common issues:
 ### Who can see my vlrbs?
 Only the specific people you send them to. vlrb does not include functionality to forward vlrbs outside the app. However, the user you send your video to could download it and send it elsewhere.
 
-<!-- ### Are my vlrbs encrypted? -->
-<!-- Yes! All vlrbs are encrypted both in transit and at rest on our servers. We cannot view your content. -->
+### Are my vlrbs encrypted?
+Yes! All vlrbs are protected with end-to-end encryption. Your videos are encrypted both in transit and at rest on our servers. We cannot view your content.
 
 <!-- ### Can I delete a vlrb after sending?
 You can delete vlrbs from your own device, but you cannot remove them from recipients' devices if they've already viewed or saved them. -->
@@ -59,7 +59,7 @@ Yes. Go to Settings > Privacy > Blocked Users. Blocked users cannot send you vlr
 
 ## Subscriptions & Billing
 
-### How do I upgrade to Social or Creator?
+### How do I upgrade to Supporter or Creator?
 1. Go to Settings > Subscription
 2. Choose your preferred plan
 3. Confirm purchase through the App Store
@@ -80,7 +80,7 @@ No. Your existing vlrbs remain accessible. You'll only lose access to premium fe
 ## Features
 
 ### What is "Live Now"?
-When you start recording a vlrb, your selected recipients get a notification that you're recording live. They can watch in real-time as you create your message. (Social and Creator only)
+When you're active in the app, your friends can see that you're online. It's a simple way to know when someone might be available for a quick vlrb exchange. (Supporter and Creator only)
 
 ### What is Picture-in-Picture?
 Creator subscribers can continue watching vlrbs while using other apps. The video plays in a small, movable window. (iOS 14+ required)
