@@ -117,8 +117,8 @@ Each service has its own privacy policy governing the use of your information.
 
 ## Data Retention
 
-- **Free accounts**: Videos expire based on default settings
-- **Social/Creator accounts**: Videos expire based on your custom settings
+- **Free accounts**: Videos expire based on default settings (7 days)
+- **Supporter/Creator accounts**: Videos expire based on your custom settings (up to 14 days for Supporter, up to 1 year for Creator)
 - **Account data**: Retained until you delete your account
 - **Deleted content**: Removed from our servers within 30 days
 

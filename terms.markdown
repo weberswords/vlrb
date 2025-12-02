@@ -58,7 +58,7 @@ We strive to be good stewards of your device space. We optimize storage usage an
 - Subject to usage limitations
 
 ### Premium Tiers
-- **Social**: Enhanced sharing features
+- **Supporter**: Enhanced sharing features
 - **Creator**: Professional features for content creators
 - Billed through Apple App Store
 - Auto-renewal unless cancelled 24 hours before period ends
