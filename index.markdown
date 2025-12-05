@@ -204,6 +204,56 @@ layout: default
     margin: 0;
   }
 
+  /* Our Promise Section */
+  .promise {
+    margin: 3rem 0;
+    padding: 2.5rem;
+    background: linear-gradient(145deg, var(--warm-paper) 0%, var(--aged-paper) 100%);
+    border: 1px solid var(--border-tan);
+    border-radius: 16px;
+    text-align: center;
+  }
+
+  .promise h2 {
+    color: var(--text-brown);
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+
+  .promise-content {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .promise-content p {
+    color: var(--text-brown-light);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    margin-bottom: 1.25rem;
+  }
+
+  .promise-content p:last-child {
+    margin-bottom: 0;
+  }
+
+  .promise-content strong {
+    color: var(--text-brown);
+    font-weight: 600;
+  }
+
+  .promise-highlight {
+    color: var(--leather-brown);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: var(--warm-paper);
+    border-left: 3px solid var(--dusty-rose);
+    text-align: left;
+    border-radius: 0 8px 8px 0;
+  }
+
   /* Pricing Section */
   .pricing {
     margin: 4rem 0;
@@ -455,9 +505,9 @@ layout: default
     <img src="/assets/images/vlrb-logo-dark.svg" alt="vlrb logo" class="vlrb-logo">
   </div>
   <h1>vlrb</h1>
-  <p class="tagline">Stories beyond words</p>
-  <p class="subtitle">Share the moments that text can't capture. For the people who matter most, like passing a note to a dear friend.</p>
-  <a href="{{ site.app_store_url }}" class="cta-button">Start Sharing Moments</a>
+  <p class="tagline">Video blurbs for the people you love</p>
+  <p class="subtitle">A vlrb is a quick video message—the moments that text can't capture, for the people who matter most. Like passing a note to a dear friend.</p>
+  <a href="{{ site.app_store_url }}" class="cta-button">vlrb Your People</a>
 </div>
 
 <div class="section-divider">
@@ -471,8 +521,8 @@ layout: default
   <div class="features">
     <article class="feature">
       <div class="feature-icon">☁️</div>
-      <h3>Light as a letter</h3>
-      <p>Videos live in the cloud, not on your phone. Share as many moments as you want without worrying about storage.</p>
+      <h3>Your videos fill the cloud, not your phone</h3>
+      <p>No more "Storage Almost Full." vlrbs live in the cloud, so you can share as many moments as you want without deleting photos to make room.</p>
     </article>
 
     <article class="feature">
@@ -499,9 +549,23 @@ layout: default
   <span class="icon">✨</span>
 </div>
 
+<section class="promise">
+  <h2>Our Promise</h2>
+  <div class="promise-content">
+    <p>We believe your moments belong to you.</p>
+    <p>vlrb is funded by subscriptions—not ads, not data sales, not investors looking for exits. We don't sell your data. We don't show you ads. We don't analyze your videos. <strong>Your content is yours.</strong></p>
+    <p class="promise-highlight">If we ever can't sustain this model, we'll shut vlrb down. We won't compromise.</p>
+    <p>We also build for everyone. Accessibility isn't a feature we'll get to later—it's how we design from the start.</p>
+  </div>
+</section>
+
+<div class="section-divider">
+  <span class="icon">✨</span>
+</div>
+
 <section class="pricing">
   <h2 class="section-title">Choose your pace</h2>
-  <p class="pricing-intro">Whether you send a quick hello or a heartfelt story, there's a way to connect that fits you.</p>
+  <p class="pricing-intro">Whether you send a quick hello or a heartfelt story, there's a way to connect that fits you. Every subscription helps keep vlrb running—and keeps it free of ads and data sales for everyone.</p>
 
   <div class="pricing-tiers" role="list" aria-label="Subscription tiers">
     <article class="tier" role="listitem" aria-labelledby="creator-tier">
@@ -583,8 +647,8 @@ layout: default
 </section>
 
 <div class="closing">
-  <h2>Ready to share something real?</h2>
+  <h2>Ready to vlrb your people?</h2>
   <p>Open vlrb and start capturing moments. No account needed, just open and record.</p>
-  <a href="{{ site.app_store_url }}" class="cta-button">Start Sharing Moments</a>
+  <a href="{{ site.app_store_url }}" class="cta-button">vlrb Your People</a>
 </div>
 </main>
