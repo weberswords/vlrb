@@ -636,7 +636,7 @@ layout: default
 
   <article class="faq-item">
     <h4>What happens when videos expire?</h4>
-    <p>Like letters that find their time, expired vlrbs are gently removed from our servers. With our Creator tier, you can choose when that happens. We recommend saving anything truly precious to your camera roll.</p>
+    <p>vlrbs are kept on our servers based on your tier: 7 days for Free, 14 days for Supporter, and up to a year for Creator. After that, they're deleted. You can always save a vlrb to your camera roll before it expires if you want to keep it forever.</p>
   </article>
 
   <article class="faq-item">
