@@ -152,12 +152,34 @@ a {
   border-top: 1px solid $border-tan;
   padding: 2rem 0;
 
+  .footer-privacy {
+    text-align: center;
+    color: $leather-brown;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid $border-tan;
+  }
+
   .footer-heading {
     color: $text-brown;
   }
 
   .contact-list,
   .social-media-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0.25rem 0;
+
+      &::before {
+        content: none;
+      }
+    }
+
     a {
       color: $leather-brown;
 
@@ -169,6 +191,15 @@ a {
 
   .footer-col-wrapper {
     color: $text-brown-light;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .footer-col {
+    flex: 1;
+    min-width: 200px;
   }
 }
 

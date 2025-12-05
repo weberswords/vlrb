@@ -28,7 +28,7 @@ We're not trying to be another social media platform. No public feeds, no influe
 From quick check-ins to 10-minute stories, vlrb adapts to how you want to communicate. Our "one more minute" feature lets conversations flow naturally when you need just a bit more time.
 
 ### 🔒 **Privacy First**
-Your moments are yours. No ads, no data mining. We make money from subscriptions, not from selling your information.
+Your moments are yours. No ads, no data mining, no compromises. We make money from subscriptions—that's it. If that ever stops working, we'll shut vlrb down before we sell your data or show you ads.
 
 ## The Team
 
@@ -37,9 +37,9 @@ vlrb is built by a small team passionate about meaningful digital communication.
 ## Our Values
 
 - **Authenticity over Perfection**: Real moments, not curated content
-- **Privacy by Design**: Your data is yours, always
-- **User-Focused Development**: We build features our users actually want
-- **Sustainable Business**: Fair pricing, no ads, no data selling
+- **Privacy by Design**: Your data is yours, always. We'd rather close than compromise.
+- **Accessibility for Everyone**: We build for everyone. Accessibility isn't an afterthought—it's how we design from the start.
+- **Sustainable Business**: Fair pricing, no ads, no data selling. We're not chasing exits—we're building something we believe in.
 
 ## Looking Forward
 
@@ -58,4 +58,4 @@ For press inquiries, partnerships, or media kits, please contact: press@vlrb.app
 
 ---
 
-*vlrb – stories beyond words.*
+*vlrb – video blurbs for the people you love.*
