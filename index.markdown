@@ -579,7 +579,6 @@ layout: default
         <li>Unlimited +1 minute boosts</li>
         <li>Up to 1 year message retention</li>
         <li>Picture-in-Picture viewing</li>
-        <li>Playback up to 3x speed</li>
       </ul>
       <p class="coming-soon">Coming soon: 4 extra themes, Groups, 3 Gift Passes/year</p>
     </article>
