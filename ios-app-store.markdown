@@ -2,7 +2,7 @@
 layout: page
 title: iOS App Store Copy
 permalink: /app-store/
-exclude: true
+published: false
 ---
 
 # iOS App Store Content for vlrb
