@@ -46,7 +46,7 @@ DESIGNED FOR REAL CONNECTION
 • Choose exactly who receives each vlrb—no accidental sharing
 • Watch on your schedule with async messaging across time zones
 • Add captions to make your videos accessible to everyone
-• Use Picture-in-Picture to watch while you do other things
+• Use Picture-in-Picture to watch while you do other things (Supporter+)
 
 PRIVACY YOU CAN TRUST
 
@@ -74,6 +74,7 @@ SUBSCRIPTION OPTIONS
 
 vlrb Free
 • Videos up to 5 minutes
+• All playback speeds (0.5x–3x)
 • 7-day message retention
 • 2 beautiful themes
 • End-to-end encryption
@@ -81,18 +82,17 @@ vlrb Free
 
 vlrb Supporter — $4.99/month or $49.99/year
 • Everything in Free
-• 3 bonus +1 minute boosts weekly
+• 3 video extensions weekly (+1 minute each)
 • 14-day message retention
-• See when friends are active
-• Faster playback (up to 3x speed)
-• Help keep vlrb ad-free forever
+• See when friends are online
+• Picture-in-Picture mode
+• Friend nicknames
 
 vlrb Creator — $9.99/month or $99.99/year
 • Everything in Supporter
 • Videos up to 10 minutes
-• Unlimited +1 minute boosts
+• Unlimited video extensions
 • Up to 1 year message retention
-• Picture-in-Picture viewing
 
 BUILT FOR EVERYONE
 
@@ -171,4 +171,4 @@ We love hearing from you—reach out anytime at our support page.
 
 ---
 
-*Last updated: December 2024*
+*Last updated: December 2025*

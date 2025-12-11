@@ -312,8 +312,15 @@ layout: default
   .tier h3 {
     color: var(--leather-brown);
     font-size: 1.35rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     font-weight: 600;
+  }
+
+  .tier-tagline {
+    font-size: 0.9rem;
+    color: var(--text-brown-light);
+    font-style: italic;
+    margin-bottom: 0.5rem;
   }
 
   .tier .price {
@@ -565,20 +572,20 @@ layout: default
 
 <section class="pricing">
   <h2 class="section-title">Choose your pace</h2>
-  <p class="pricing-intro">Whether you send a quick hello or a heartfelt story, there's a way to connect that fits you. Every subscription helps keep vlrb running—and keeps it free of ads and data sales for everyone.</p>
+  <p class="pricing-intro">Video messaging that respects your time and your wallet. Core features free, forever. Every subscription helps keep vlrb running—and keeps it free of ads and data sales for everyone.</p>
 
   <div class="pricing-tiers" role="list" aria-label="Subscription tiers">
     <article class="tier" role="listitem" aria-labelledby="creator-tier">
       <div class="tier-icon" aria-hidden="true">✨</div>
       <h3 id="creator-tier">Creator</h3>
+      <p class="tier-tagline">For the storytellers</p>
       <div class="price">{{ site.creator_price_monthly }}<span class="period">/month</span></div>
       <p class="price-note">Or {{ site.creator_price_yearly }}/year</p>
       <ul aria-label="Creator tier features">
         <li>Everything in Supporter, plus:</li>
-        <li>Videos up to 10 minutes</li>
-        <li>Unlimited +1 minute boosts</li>
-        <li>Up to 1 year message retention</li>
-        <li>Picture-in-Picture viewing</li>
+        <li>Record up to 10 minutes</li>
+        <li>Unlimited video extensions</li>
+        <li>Messages kept up to 1 year</li>
       </ul>
       <p class="coming-soon">Coming soon: 4 extra themes, Groups, 3 Gift Passes/year</p>
     </article>
@@ -586,15 +593,16 @@ layout: default
     <article class="tier featured" role="listitem" aria-labelledby="supporter-tier">
       <div class="tier-icon" aria-hidden="true">☕</div>
       <h3 id="supporter-tier">Supporter</h3>
+      <p class="tier-tagline">Stay connected your way</p>
       <div class="price">{{ site.supporter_price_monthly }}<span class="period">/month</span></div>
       <p class="price-note">Or {{ site.supporter_price_yearly }}/year</p>
       <ul aria-label="Supporter tier features">
         <li>Everything in Free, plus:</li>
-        <li>3 bonus +1 minute boosts per week</li>
-        <li>Up to 14 days message retention</li>
-        <li>See when friends are active</li>
-        <li>Playback up to 3x speed</li>
-        <li>Your subscription keeps vlrb ad-free for everyone</li>
+        <li>3 video extensions per week</li>
+        <li>See when friends are online</li>
+        <li>Picture-in-Picture mode</li>
+        <li>Friend nicknames</li>
+        <li>Messages kept up to 14 days</li>
       </ul>
       <p class="coming-soon">Coming soon: 2 extra themes, Groups, 1 Gift Pass/year</p>
     </article>
@@ -602,15 +610,16 @@ layout: default
     <article class="tier" role="listitem" aria-labelledby="free-tier">
       <div class="tier-icon" aria-hidden="true">🌱</div>
       <h3 id="free-tier">Free</h3>
+      <p class="tier-tagline">Everything you need to connect</p>
       <div class="price">$0<span class="period"> forever</span></div>
       <p class="price-note">Always available</p>
       <ul aria-label="Free tier features">
-        <li>Videos up to 5 minutes</li>
-        <li>7-day message retention</li>
-        <li>Playback up to 2x speed</li>
-        <li>2 themes included</li>
+        <li>Send and receive video messages</li>
+        <li>5-minute recording limit</li>
+        <li>All playback speeds (0.5x–3x)</li>
+        <li>7-day message history</li>
         <li>End-to-end encryption</li>
-        <li>Cloud storage for your vlrbs</li>
+        <li>Full accessibility support</li>
       </ul>
     </article>
   </div>

@@ -83,7 +83,7 @@ No. Your existing vlrbs remain accessible. You'll only lose access to premium fe
 When you're active in the app, your friends can see that you're online. It's a simple way to know when someone might be available for a quick vlrb exchange. (Supporter and Creator only)
 
 ### What is Picture-in-Picture?
-Creator subscribers can continue watching vlrbs while using other apps. The video plays in a small, movable window. (iOS 14+ required)
+Supporter and Creator subscribers can continue watching vlrbs while using other apps. The video plays in a small, movable window. (iOS 14+ required)
 
 ### Can I send vlrbs to multiple people?
 Yes! You can select multiple recipients when sending. Each person receives their own copy and cannot see who else received it.
