@@ -59,7 +59,7 @@ We strive to be good stewards of your device space. We optimize storage usage an
 
 ### Premium Tiers
 - **Supporter**: Enhanced sharing features
-- **Creator**: Professional features for content creators
+- **Storyteller**: Extended recording and storage features
 - Billed through Apple App Store
 - Auto-renewal unless cancelled 24 hours before period ends
 - Prices subject to change with notice

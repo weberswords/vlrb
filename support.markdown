@@ -18,12 +18,12 @@ permalink: /support/
 ### How long can my videos be?
 - **Free**: Up to 5 minutes per vlrb
 - **Supporter**: Up to 5 minutes per vlrb (with 3 bonus +1 minute boosts per week)
-- **Creator**: Up to 10 minutes per vlrb with unlimited +1 minute boosts
+- **Storyteller**: Up to 10 minutes per vlrb with unlimited +1 minute boosts
 
 ### What is a "+1 minute boost"?
 When you're recording and approaching your time limit, you can tap "+1 minute" to extend your recording:
 - **Supporter**: 3 boosts per week
-- **Creator**: Unlimited boosts
+- **Storyteller**: Unlimited boosts
 
 ## Storage & Technical
 
@@ -31,7 +31,7 @@ When you're recording and approaching your time limit, you can tap "+1 minute" t
 No! Videos are stored in the cloud by default. You can clear your local storage at anytime in settings. You can download those videos again by watching them. They only use your phone storage if you explicitly choose to save them to your device.
 
 ### Can I save vlrbs permanently?
-Yes! You can save any vlrb to your camera roll by tapping the download button. Creator subscribers can also set custom expiration times. Videos can be stored in the cloud for up to 1 year.
+Yes! You can save any vlrb to your camera roll by tapping the download button. Storyteller subscribers can also set custom expiration times. Videos can be stored in the cloud for up to 1 year.
 
 ### What happens to expired vlrbs?
 Expired vlrbs are automatically deleted from our servers and cannot be recovered. Make sure to save any vlrbs you want to keep before they expire.
@@ -59,7 +59,7 @@ Yes. Go to Settings > Privacy > Blocked Users. Blocked users cannot send you vlr
 
 ## Subscriptions & Billing
 
-### How do I upgrade to Supporter or Creator?
+### How do I upgrade to Supporter or Storyteller?
 1. Go to Settings > Subscription
 2. Choose your preferred plan
 3. Confirm purchase through the App Store
@@ -80,10 +80,10 @@ No. Your existing vlrbs remain accessible. You'll only lose access to premium fe
 ## Features
 
 ### What is "Live Now"?
-When you're active in the app, your friends can see that you're online. It's a simple way to know when someone might be available for a quick vlrb exchange. (Supporter and Creator only)
+When you're active in the app, your friends can see that you're online. It's a simple way to know when someone might be available for a quick vlrb exchange. (Supporter and Storyteller only)
 
 ### What is Picture-in-Picture?
-Creator subscribers can continue watching vlrbs while using other apps. The video plays in a small, movable window. (iOS 14+ required)
+Supporter and Storyteller subscribers can continue watching vlrbs while using other apps. The video plays in a small, movable window. (iOS 14+ required)
 
 ### Can I send vlrbs to multiple people?
 Yes! You can select multiple recipients when sending. Each person receives their own copy and cannot see who else received it.
