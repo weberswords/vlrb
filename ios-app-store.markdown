@@ -42,7 +42,7 @@ Videos live in the cloud by default, so you'll never see "Storage Full" when try
 
 DESIGNED FOR REAL CONNECTION
 
-• Send video messages up to 5 minutes (10 minutes for Creator subscribers)
+• Send video messages up to 5 minutes (10 minutes for Storyteller subscribers)
 • Choose exactly who receives each vlrb—no accidental sharing
 • Watch on your schedule with async messaging across time zones
 • Add captions to make your videos accessible to everyone
@@ -88,7 +88,7 @@ vlrb Supporter — $4.99/month or $49.99/year
 • Picture-in-Picture mode
 • Friend nicknames
 
-vlrb Creator — $9.99/month or $99.99/year
+vlrb Storyteller — $9.99/month or $99.99/year
 • Everything in Supporter
 • Videos up to 10 minutes
 • Unlimited video extensions

@@ -575,13 +575,13 @@ layout: default
   <p class="pricing-intro">Video messaging that respects your time and your wallet. Core features free, forever. Every subscription helps keep vlrb running—and keeps it free of ads and data sales for everyone.</p>
 
   <div class="pricing-tiers" role="list" aria-label="Subscription tiers">
-    <article class="tier" role="listitem" aria-labelledby="creator-tier">
+    <article class="tier" role="listitem" aria-labelledby="storyteller-tier">
       <div class="tier-icon" aria-hidden="true">✨</div>
-      <h3 id="creator-tier">Creator</h3>
-      <p class="tier-tagline">For the storytellers</p>
+      <h3 id="storyteller-tier">Storyteller</h3>
+      <p class="tier-tagline">For the moments that need more time</p>
       <div class="price">{{ site.creator_price_monthly }}<span class="period">/month</span></div>
       <p class="price-note">Or {{ site.creator_price_yearly }}/year</p>
-      <ul aria-label="Creator tier features">
+      <ul aria-label="Storyteller tier features">
         <li>Everything in Supporter, plus:</li>
         <li>Record up to 10 minutes</li>
         <li>Unlimited video extensions</li>
@@ -645,7 +645,7 @@ layout: default
 
   <article class="faq-item">
     <h4>What happens when videos expire?</h4>
-    <p>Like letters that find their time, expired vlrbs are gently removed from our servers. With our Creator tier, you can choose when that happens. We recommend saving anything truly precious to your camera roll.</p>
+    <p>Like letters that find their time, expired vlrbs are gently removed from our servers. With our Storyteller tier, you can choose when that happens. We recommend saving anything truly precious to your camera roll.</p>
   </article>
 
   <article class="faq-item">
