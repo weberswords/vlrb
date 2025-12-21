@@ -28,7 +28,7 @@ When you're recording and approaching your time limit, you can tap "+1 minute" t
 ## Storage & Technical
 
 ### Do vlrbs take up space on my phone?
-No! Videos are stored in the cloud by default. You can clear your local storage at anytime in settings. You can download those videos again by watching them. They only use your phone storage if you explicitly choose to save them to your device.
+vlrbs go straight to the cloud—not your camera roll—and expire automatically, so they won't pile up on your device. You can clear your local cache anytime in settings, and re-download videos by watching them. While a completely full phone can still block recording, vlrb is designed to stay as light as possible.
 
 ### Can I save vlrbs permanently?
 Yes! You can save any vlrb to your camera roll by tapping the download button. Storyteller subscribers can also set custom expiration times. Videos can be stored in the cloud for up to 1 year.

@@ -18,16 +18,16 @@ To make digital connection feel real again by empowering people to share authent
 
 ## What Makes vlrb Different
 
-### 📱 **Storage-Smart Design**
-Unlike other video messaging apps that quickly fill up your phone, vlrb stores videos in the cloud by default. You only download what you want to keep, meaning you can share unlimited moments without worrying about that dreaded "Storage Full" notification.
+### <span aria-hidden="true">📱</span> **Designed to Stay Light**
+vlrbs go straight to the cloud—not your camera roll—and expire after a set time. We do everything we can to keep your storage free for what matters most. While a completely full phone can still block recording, vlrb is designed to minimize its footprint on your device.
 
-### 🎯 **Purpose-Built for Connection**
+### <span aria-hidden="true">🎯</span> **Purpose-Built for Connection**
 We're not trying to be another social media platform. No public feeds, no influencers, no algorithmic timelines. Just you and the people you care about, sharing real moments.
 
-### ⏱️ **Flexible Sharing**
+### <span aria-hidden="true">⏱️</span> **Flexible Sharing**
 From quick check-ins to 10-minute stories, vlrb adapts to how you want to communicate. Our "one more minute" feature lets conversations flow naturally when you need just a bit more time.
 
-### 🔒 **Privacy First**
+### <span aria-hidden="true">🔒</span> **Privacy First**
 Your moments are yours. No ads, no data mining, no compromises. We make money from subscriptions—that's it. If that ever stops working, we'll shut vlrb down before we sell your data or show you ads.
 
 ## The Team
