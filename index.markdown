@@ -513,11 +513,11 @@ layout: default
   </div>
   <h1>vlrb</h1>
   <p class="tagline">Video blurbs for the people you love</p>
-  <p class="subtitle">A vlrb is a quick video message—the moments that text can't capture, for the people who matter most. Like passing a note to a dear friend.</p>
+  <p class="subtitle">A vlrb <em>(say it like "blurb" with a v)</em> is a quick video message—the moments that text can't capture, for the people who matter most. Like passing a note to a dear friend.</p>
   <a href="{{ site.app_store_url }}" class="cta-button">vlrb Your People</a>
 </div>
 
-<div class="section-divider">
+<div class="section-divider" aria-hidden="true">
   <span class="icon">✨</span>
 </div>
 
@@ -528,8 +528,8 @@ layout: default
   <div class="features">
     <article class="feature">
       <div class="feature-icon">☁️</div>
-      <h3>Your videos fill the cloud, not your phone</h3>
-      <p>No more "Storage Almost Full." vlrbs live in the cloud, so you can share as many moments as you want without deleting photos to make room.</p>
+      <h3>Designed to stay light on your phone</h3>
+      <p>vlrbs go straight to the cloud—not your camera roll—and expire after a set time. We do everything we can to keep your storage free for what matters most.</p>
     </article>
 
     <article class="feature">
@@ -552,7 +552,7 @@ layout: default
   </div>
 </section>
 
-<div class="section-divider">
+<div class="section-divider" aria-hidden="true">
   <span class="icon">✨</span>
 </div>
 
@@ -566,7 +566,7 @@ layout: default
   </div>
 </section>
 
-<div class="section-divider">
+<div class="section-divider" aria-hidden="true">
   <span class="icon">✨</span>
 </div>
 
@@ -625,7 +625,7 @@ layout: default
   </div>
 </section>
 
-<div class="section-divider">
+<div class="section-divider" aria-hidden="true">
   <span class="icon">✨</span>
 </div>
 
@@ -640,7 +640,7 @@ layout: default
 
   <article class="faq-item">
     <h4>Will videos fill up my phone?</h4>
-    <p>Not at all. Your vlrbs live in the cloud by default. You can watch them anytime, and only download the ones you want to keep forever. It's like having a shoebox of treasured letters, but the shoebox takes up no space.</p>
+    <p>We work hard to minimize our footprint. vlrbs go straight to the cloud—not your camera roll—and expire automatically, so they won't pile up. You can still save your favorites locally if you want. While a completely full phone can still block recording, vlrb is designed to stay as light as possible.</p>
   </article>
 
   <article class="faq-item">
