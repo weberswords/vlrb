@@ -92,13 +92,15 @@ h4 {
 // Links
 a {
   color: $leather-brown;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: color 0.2s ease, border-color 0.2s ease;
+  text-decoration: underline;
+  text-decoration-color: rgba($leather-brown, 0.3);
+  text-underline-offset: 2px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: $terracotta;
-    border-bottom-color: $terracotta;
+    text-decoration-color: $terracotta;
   }
 
   &:visited {
@@ -136,10 +138,12 @@ a {
     font-weight: 500;
     padding: 0.5rem 0;
     margin-left: 1.5rem;
+    text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: all 0.2s ease;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: $leather-brown;
       border-bottom-color: $dusty-rose;
     }
@@ -182,9 +186,12 @@ a {
 
     a {
       color: $leather-brown;
+      text-decoration: none;
 
-      &:hover {
+      &:hover,
+      &:focus {
         color: $terracotta;
+        text-decoration: underline;
       }
     }
   }
