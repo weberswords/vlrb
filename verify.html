@@ -1,0 +1,500 @@
+---
+permalink: /verify
+layout: default
+title: Verify Email - VLRB
+noindex: true
+---
+
+<style type="text/css" media="screen">
+  /* Verification Page Styles */
+  .verify-container {
+    max-width: 440px;
+    margin: 3rem auto;
+    text-align: center;
+    padding: 2.5rem 2rem;
+    background: linear-gradient(145deg, #FFF8F0 0%, #F5E6D3 100%);
+    border: 1px solid #E3DDD3;
+    border-radius: 16px;
+  }
+
+  .verify-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .verify-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+
+  .verify-icon.success {
+    color: #A8B5A0;
+  }
+
+  .verify-icon.error {
+    color: #D4978A;
+  }
+
+  .verify-icon.warning {
+    color: #C87E70;
+  }
+
+  .verify-icon.info {
+    color: #8BA89F;
+  }
+
+  .verify-container h1 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+    color: #3A342F;
+    margin: 0 0 0.75rem 0;
+    font-weight: 700;
+  }
+
+  .verify-container p {
+    color: #4A3F35;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .verify-button {
+    display: inline-block;
+    background: #7A5F3A;
+    color: #FFF8F0;
+    padding: 0.875rem 2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    min-width: 200px;
+    min-height: 48px;
+    line-height: 1.4;
+  }
+
+  .verify-button:hover,
+  .verify-button:focus {
+    background: #6A5232;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(122, 95, 58, 0.25);
+    color: #FFF8F0;
+  }
+
+  .verify-button:focus-visible {
+    outline: 3px solid #D4978A;
+    outline-offset: 2px;
+  }
+
+  .verify-button:active {
+    transform: translateY(0);
+  }
+
+  .secondary-text {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #4A3F35;
+  }
+
+  .secondary-text a {
+    color: #7A5F3A;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .secondary-text a:hover,
+  .secondary-text a:focus {
+    color: #C87E70;
+  }
+
+  /* Loading State */
+  .state {
+    display: none;
+  }
+
+  .state.active {
+    display: block;
+  }
+
+  .spinner {
+    width: 48px;
+    height: 48px;
+    border: 4px solid #E3DDD3;
+    border-top-color: #7A5F3A;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 1.5rem;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Checkmark Animation */
+  .checkmark-circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #A8B5A0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    animation: scaleIn 0.3s ease-out;
+  }
+
+  .checkmark-circle svg {
+    width: 32px;
+    height: 32px;
+    stroke: #FFF8F0;
+    stroke-width: 3;
+    fill: none;
+    animation: drawCheck 0.4s ease-out 0.2s forwards;
+    stroke-dasharray: 30;
+    stroke-dashoffset: 30;
+  }
+
+  @keyframes scaleIn {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes drawCheck {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  /* Dark Mode */
+  @media (prefers-color-scheme: dark) {
+    .verify-container {
+      background: linear-gradient(145deg, #2C2520 0%, #3A342F 100%);
+      border-color: #4A3F35;
+    }
+
+    .verify-container h1 {
+      color: #FFF8F0;
+    }
+
+    .verify-container p {
+      color: #E3DDD3;
+    }
+
+    .secondary-text {
+      color: #D9D0C3;
+    }
+
+    .secondary-text a {
+      color: #D4978A;
+    }
+
+    .secondary-text a:hover,
+    .secondary-text a:focus {
+      color: #E3A090;
+    }
+
+    .verify-button {
+      background: #9A7F5A;
+    }
+
+    .verify-button:hover,
+    .verify-button:focus {
+      background: #AA8F6A;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .spinner {
+      border-color: #4A3F35;
+      border-top-color: #D4978A;
+    }
+
+    .verify-icon.success {
+      color: #B8C5B0;
+    }
+
+    .verify-icon.error {
+      color: #E4A89A;
+    }
+
+    .verify-icon.warning {
+      color: #D88E80;
+    }
+
+    .verify-icon.info {
+      color: #9BB8AF;
+    }
+
+    .checkmark-circle {
+      background: #8BA89F;
+    }
+  }
+
+  /* Reduced Motion */
+  @media (prefers-reduced-motion: reduce) {
+    .verify-button {
+      transition: none;
+    }
+
+    .verify-button:hover,
+    .verify-button:focus {
+      transform: none;
+    }
+
+    .spinner {
+      animation: none;
+      border-top-color: #7A5F3A;
+      opacity: 0.6;
+    }
+
+    .checkmark-circle {
+      animation: none;
+    }
+
+    .checkmark-circle svg {
+      animation: none;
+      stroke-dashoffset: 0;
+    }
+  }
+
+  /* Hide states by default, show via JS or noscript fallback */
+  #loading-state,
+  #success-state,
+  #expired-state,
+  #invalid-state,
+  #verified-state {
+    display: none;
+  }
+
+  /* Show loading by default when JS is enabled */
+  .js-enabled #loading-state {
+    display: block;
+  }
+</style>
+
+<noscript>
+  <style>
+    /* When JS is disabled, show a helpful fallback */
+    #noscript-fallback {
+      display: block !important;
+    }
+  </style>
+</noscript>
+
+<main role="main" aria-labelledby="verify-heading">
+  <div class="verify-container">
+    <!-- Logo -->
+    <picture>
+      <source srcset="{{ '/assets/images/vlrb-logo-dark.svg' | relative_url }}" media="(prefers-color-scheme: dark)">
+      <img src="{{ '/assets/images/vlrb-logo-light.svg' | relative_url }}" alt="VLRB" class="verify-logo" width="80" height="80">
+    </picture>
+
+    <!-- No JavaScript Fallback -->
+    <div id="noscript-fallback" class="state" style="display: none;">
+      <div class="verify-icon info" aria-hidden="true">~</div>
+      <h1 id="verify-heading">Open the app to continue</h1>
+      <p>To verify your email, please open the VLRB app on your phone.</p>
+      <a href="https://vlrb.app/open-app" class="verify-button">Open VLRB</a>
+      <p class="secondary-text">
+        Don't have the app? <a href="{{ site.app_store_url }}">Get it on the App Store</a>
+      </p>
+    </div>
+
+    <!-- Loading State -->
+    <div id="loading-state" class="state" role="status" aria-live="polite">
+      <div class="spinner" aria-hidden="true"></div>
+      <h1 id="verify-heading-loading">Verifying your email...</h1>
+      <p>Just a moment while we confirm everything.</p>
+    </div>
+
+    <!-- Success State -->
+    <div id="success-state" class="state" aria-live="polite">
+      <div class="checkmark-circle" aria-hidden="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <polyline points="6,12 10,16 18,8"></polyline>
+        </svg>
+      </div>
+      <h1>You're verified!</h1>
+      <p>Your email is confirmed. Head back to the app to finish signing up.</p>
+      <a href="https://vlrb.app/verified" class="verify-button" id="open-app-btn">Open VLRB</a>
+      <p class="secondary-text" id="app-store-hint" style="display: none;">
+        Don't have the app? <a href="{{ site.app_store_url }}">Get it on the App Store</a>
+      </p>
+    </div>
+
+    <!-- Expired State -->
+    <div id="expired-state" class="state" aria-live="polite">
+      <div class="verify-icon warning" aria-hidden="true">~</div>
+      <h1>This link has expired</h1>
+      <p>No worries—open the app and we'll send you a fresh one.</p>
+      <a href="https://vlrb.app/open-app" class="verify-button">Open VLRB</a>
+      <p class="secondary-text">
+        Don't have the app? <a href="{{ site.app_store_url }}">Get it on the App Store</a>
+      </p>
+    </div>
+
+    <!-- Invalid State -->
+    <div id="invalid-state" class="state" aria-live="polite">
+      <div class="verify-icon error" aria-hidden="true">~</div>
+      <h1>Hmm, something's not right</h1>
+      <p>This link doesn't look valid. Try opening the app to request a new one.</p>
+      <a href="https://vlrb.app/open-app" class="verify-button">Open VLRB</a>
+      <p class="secondary-text">
+        Don't have the app? <a href="{{ site.app_store_url }}">Get it on the App Store</a>
+      </p>
+    </div>
+
+    <!-- Already Verified State -->
+    <div id="verified-state" class="state" aria-live="polite">
+      <div class="verify-icon info" aria-hidden="true">~</div>
+      <h1>Already verified!</h1>
+      <p>Looks like you've already verified this email. Head to the app to continue.</p>
+      <a href="https://vlrb.app/open-app" class="verify-button">Open VLRB</a>
+      <p class="secondary-text">
+        Don't have the app? <a href="{{ site.app_store_url }}">Get it on the App Store</a>
+      </p>
+    </div>
+  </div>
+</main>
+
+<script>
+(function() {
+  'use strict';
+
+  // Mark that JS is enabled
+  document.documentElement.classList.add('js-enabled');
+
+  // State management
+  var states = {
+    loading: document.getElementById('loading-state'),
+    success: document.getElementById('success-state'),
+    expired: document.getElementById('expired-state'),
+    invalid: document.getElementById('invalid-state'),
+    verified: document.getElementById('verified-state'),
+    noscript: document.getElementById('noscript-fallback')
+  };
+
+  function showState(stateName) {
+    // Hide all states
+    Object.keys(states).forEach(function(key) {
+      if (states[key]) {
+        states[key].style.display = 'none';
+        states[key].classList.remove('active');
+      }
+    });
+
+    // Show requested state
+    if (states[stateName]) {
+      states[stateName].style.display = 'block';
+      states[stateName].classList.add('active');
+
+      // Move focus to the state for screen readers
+      states[stateName].setAttribute('tabindex', '-1');
+      states[stateName].focus();
+    }
+  }
+
+  // Extract token from URL
+  function getToken() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get('token');
+  }
+
+  // Call Firebase Cloud Function to verify the token
+  async function verifyToken(token) {
+    // Cloud Function endpoint - update this URL to your actual Firebase function
+    var verifyEndpoint = 'https://us-central1-vlrb-app.cloudfunctions.net/verifySignupToken';
+
+    try {
+      var response = await fetch(verifyEndpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ token: token })
+      });
+
+      var data = await response.json();
+
+      if (response.ok && data.success) {
+        return { success: true };
+      } else {
+        // Handle specific error codes
+        var errorCode = data.code || data.error || 'unknown';
+
+        if (errorCode === 'expired' || errorCode === 'token_expired') {
+          return { success: false, error: 'expired' };
+        } else if (errorCode === 'already_used' || errorCode === 'already_verified') {
+          return { success: false, error: 'already_verified' };
+        } else {
+          return { success: false, error: 'invalid' };
+        }
+      }
+    } catch (err) {
+      console.error('Verification failed:', err);
+      return { success: false, error: 'invalid' };
+    }
+  }
+
+  // Handle deep linking with fallback
+  function setupDeepLinkFallback() {
+    var openAppBtn = document.getElementById('open-app-btn');
+    var appStoreHint = document.getElementById('app-store-hint');
+
+    if (openAppBtn && appStoreHint) {
+      openAppBtn.addEventListener('click', function() {
+        // Show app store hint after a delay (if user is still on page, app didn't open)
+        setTimeout(function() {
+          if (document.visibilityState !== 'hidden') {
+            appStoreHint.style.display = 'block';
+          }
+        }, 2000);
+      });
+    }
+  }
+
+  // Main verification flow
+  async function init() {
+    var token = getToken();
+
+    // No token in URL - show invalid state
+    if (!token) {
+      showState('invalid');
+      return;
+    }
+
+    // Show loading state
+    showState('loading');
+
+    // Verify the token
+    var result = await verifyToken(token);
+
+    if (result.success) {
+      showState('success');
+      setupDeepLinkFallback();
+    } else if (result.error === 'expired') {
+      showState('expired');
+    } else if (result.error === 'already_verified') {
+      showState('verified');
+    } else {
+      showState('invalid');
+    }
+  }
+
+  // Start verification when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
