@@ -454,8 +454,8 @@ exclude: true
 
   // Call Firebase Cloud Function to verify the token
   async function verifyToken(token) {
-    // Cloud Function endpoint - update this URL to your actual Firebase function
-    var verifyEndpoint = 'https://us-central1-vlrb-app.cloudfunctions.net/verifySignupToken';
+    // HTTP endpoint with CORS support (separate from onCall function used by iOS)
+    var verifyEndpoint = 'https://us-central1-vlrb-app.cloudfunctions.net/verifySignupTokenHttp';
 
     try {
       var response = await fetch(verifyEndpoint, {
