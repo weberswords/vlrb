@@ -1,20 +1,30 @@
 ---
 permalink: /verify
 layout: default
-title: Verify Email - VLRB
 noindex: true
+exclude: true
 ---
 
 <style type="text/css" media="screen">
+  /* Override page wrapper to remove nested styling */
+  .page-content {
+    padding: 0;
+  }
+
+  .page-content > .wrapper {
+    max-width: none;
+    padding: 0;
+  }
+
   /* Verification Page Styles */
   .verify-container {
-    max-width: 440px;
-    margin: 3rem auto;
+    max-width: 400px;
+    margin: 4rem auto;
     text-align: center;
-    padding: 2.5rem 2rem;
-    background: linear-gradient(145deg, #FFF8F0 0%, #F5E6D3 100%);
-    border: 1px solid #E3DDD3;
-    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    background: transparent;
+    border: none;
+    border-radius: 0;
   }
 
   .verify-logo {
@@ -24,25 +34,52 @@ noindex: true
   }
 
   .verify-icon {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    line-height: 1;
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 1.25rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .verify-icon svg {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2.5;
+    fill: none;
   }
 
   .verify-icon.success {
-    color: #A8B5A0;
+    background: #A8B5A0;
+  }
+
+  .verify-icon.success svg {
+    stroke: #FFF8F0;
   }
 
   .verify-icon.error {
-    color: #D4978A;
+    background: #D4978A;
+  }
+
+  .verify-icon.error svg {
+    stroke: #FFF8F0;
   }
 
   .verify-icon.warning {
-    color: #C87E70;
+    background: #C87E70;
+  }
+
+  .verify-icon.warning svg {
+    stroke: #FFF8F0;
   }
 
   .verify-icon.info {
-    color: #8BA89F;
+    background: #8BA89F;
+  }
+
+  .verify-icon.info svg {
+    stroke: #FFF8F0;
   }
 
   .verify-container h1 {
@@ -64,15 +101,13 @@ noindex: true
     display: inline-block;
     background: #7A5F3A;
     color: #FFF8F0;
-    padding: 0.875rem 2rem;
+    padding: 0.75rem 1.75rem;
     border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
     transition: all 0.2s ease;
-    min-width: 200px;
-    min-height: 48px;
-    line-height: 1.4;
+    min-width: 180px;
   }
 
   .verify-button:hover,
@@ -219,19 +254,19 @@ noindex: true
     }
 
     .verify-icon.success {
-      color: #B8C5B0;
+      background: #8BA89F;
     }
 
     .verify-icon.error {
-      color: #E4A89A;
+      background: #C4887A;
     }
 
     .verify-icon.warning {
-      color: #D88E80;
+      background: #B87E70;
     }
 
     .verify-icon.info {
-      color: #9BB8AF;
+      background: #7B988F;
     }
 
     .checkmark-circle {
@@ -300,7 +335,9 @@ noindex: true
 
     <!-- No JavaScript Fallback -->
     <div id="noscript-fallback" class="state" style="display: none;">
-      <div class="verify-icon info" aria-hidden="true">~</div>
+      <div class="verify-icon info" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      </div>
       <h1 id="verify-heading">Open the app to continue</h1>
       <p>To verify your email, please open the VLRB app on your phone.</p>
       <a href="https://vlrb.app/open-app" class="verify-button">Open VLRB</a>
@@ -333,7 +370,9 @@ noindex: true
 
     <!-- Expired State -->
     <div id="expired-state" class="state" aria-live="polite">
-      <div class="verify-icon warning" aria-hidden="true">~</div>
+      <div class="verify-icon warning" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
       <h1>This link has expired</h1>
       <p>No worries—open the app and we'll send you a fresh one.</p>
       <a href="https://vlrb.app/open-app" class="verify-button">Open VLRB</a>
@@ -344,7 +383,9 @@ noindex: true
 
     <!-- Invalid State -->
     <div id="invalid-state" class="state" aria-live="polite">
-      <div class="verify-icon error" aria-hidden="true">~</div>
+      <div class="verify-icon error" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+      </div>
       <h1>Hmm, something's not right</h1>
       <p>This link doesn't look valid. Try opening the app to request a new one.</p>
       <a href="https://vlrb.app/open-app" class="verify-button">Open VLRB</a>
@@ -355,7 +396,9 @@ noindex: true
 
     <!-- Already Verified State -->
     <div id="verified-state" class="state" aria-live="polite">
-      <div class="verify-icon info" aria-hidden="true">~</div>
+      <div class="verify-icon info" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="8 12 11 15 16 9"/></svg>
+      </div>
       <h1>Already verified!</h1>
       <p>Looks like you've already verified this email. Head to the app to continue.</p>
       <a href="https://vlrb.app/open-app" class="verify-button">Open VLRB</a>
