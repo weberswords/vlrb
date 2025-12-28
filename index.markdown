@@ -4,6 +4,7 @@ layout: default
 
 <style>
   /* CSS Custom Properties for easy theming */
+  /* All text colors meet WCAG AA 4.5:1 contrast ratio on light backgrounds */
   :root {
     --cream-bg: #F5F1E8;
     --warm-paper: #FFF8F0;
@@ -12,12 +13,12 @@ layout: default
     --leather-brown-bg: #7A5F3A; /* Original color for button backgrounds */
     --ink-blue: #2C3539;
     --dusty-rose: #D4978A;
-    --dusty-rose-dark: #9E6358;
+    --dusty-rose-dark: #8B5A50; /* Darkened for 4.5:1 contrast */
     --terracotta: #C87E70;
-    --sage-green: #A8B5A0;
+    --sage-green: #5A7A52; /* Darkened from #A8B5A0 for 4.5:1 contrast */
     --muted-teal: #8BA89F;
     --text-brown: #3A342F;
-    --text-brown-light: #3D352E; /* Darkened from #4A3F35 for WCAG AA contrast */
+    --text-brown-light: #3A342F; /* Use main text color for all body text */
     --border-tan: #E3DDD3;
     --border-warm: #D9D0C3;
   }
@@ -135,8 +136,7 @@ layout: default
 
   .section-divider .icon {
     font-size: 1.25rem;
-    color: var(--dusty-rose);
-    opacity: 0.8;
+    color: var(--dusty-rose-dark); /* Darkened for better contrast */
   }
 
   /* Features Section */
