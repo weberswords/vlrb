@@ -8,7 +8,8 @@ layout: default
     --cream-bg: #F5F1E8;
     --warm-paper: #FFF8F0;
     --aged-paper: #F5E6D3;
-    --leather-brown: #7A5F3A;
+    --leather-brown: #5E4A2F; /* Darkened from #7A5F3A for WCAG AA text contrast */
+    --leather-brown-bg: #7A5F3A; /* Original color for button backgrounds */
     --ink-blue: #2C3539;
     --dusty-rose: #D4978A;
     --dusty-rose-dark: #9E6358;
@@ -16,7 +17,7 @@ layout: default
     --sage-green: #A8B5A0;
     --muted-teal: #8BA89F;
     --text-brown: #3A342F;
-    --text-brown-light: #4A3F35;
+    --text-brown-light: #3D352E; /* Darkened from #4A3F35 for WCAG AA contrast */
     --border-tan: #E3DDD3;
     --border-warm: #D9D0C3;
   }
@@ -92,7 +93,7 @@ layout: default
 
   .cta-button {
     display: inline-block;
-    background: var(--leather-brown);
+    background: var(--leather-brown-bg);
     color: var(--warm-paper);
     padding: 1rem 2rem;
     border-radius: 12px;
