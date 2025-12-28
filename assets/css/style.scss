@@ -13,7 +13,7 @@ $terracotta: #C87E70;
 $sage-green: #A8B5A0;
 $muted-teal: #8BA89F;
 $text-brown: #3A342F;
-$text-brown-light: #4A3F35;
+$text-brown-light: #3D352E; // Darkened from #4A3F35 for WCAG AA compliance
 $border-tan: #E3DDD3;
 $border-warm: #D9D0C3;
 
@@ -592,4 +592,29 @@ hr {
   h1, h2, h3 {
     color: black;
   }
+}
+
+// Navigation trigger accessibility fix
+// Properly hide the checkbox input for screen readers while maintaining functionality
+.nav-trigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+// Visually hidden utility class
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }

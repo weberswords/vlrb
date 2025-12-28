@@ -21,6 +21,15 @@ layout: default
   }
 
   .error-container h1 {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    color: #7A5F3A;
+    margin: 0 0 1rem 0;
+    font-weight: 600;
+  }
+
+  .error-code {
+    display: block;
     font-size: 4rem;
     line-height: 1;
     color: #3A342F;
@@ -28,12 +37,16 @@ layout: default
     font-weight: 700;
   }
 
-  .error-container h2 {
-    font-size: 1.25rem;
-    color: #7A5F3A;
-    font-weight: 600;
-    margin: 0 0 1rem 0;
-    border: none;
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   .error-container p {
@@ -71,10 +84,15 @@ layout: default
   }
 </style>
 
-<div class="error-container">
-  <div class="error-icon">~</div>
-  <h1>404</h1>
-  <h2>Page not found</h2>
-  <p>It seems this page has wandered off. Perhaps it's out collecting stories somewhere. Let's get you back home.</p>
-  <a href="/" class="home-link">Return Home</a>
-</div>
+<main>
+  <div class="error-container">
+    <div class="error-icon" aria-hidden="true">~</div>
+    <h1>
+      <span class="error-code" aria-hidden="true">404</span>
+      <span class="visually-hidden">Error 404: </span>
+      Page not found
+    </h1>
+    <p>It seems this page has wandered off. Perhaps it's out collecting stories somewhere. Let's get you back home.</p>
+    <a href="/" class="home-link">Return Home</a>
+  </div>
+</main>
