@@ -391,7 +391,7 @@ layout: default
     border-color: var(--border-warm);
   }
 
-  .faq-item h4 {
+  .faq-item h3 {
     color: var(--leather-brown);
     margin-bottom: 0.75rem;
     font-size: 1.05rem;
@@ -506,7 +506,7 @@ layout: default
 
 <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main id="main-content">
+<div id="main-content">
 <div class="hero">
   <div class="logo-container">
     <img src="/assets/images/vlrb-logo-dark.svg" alt="vlrb logo" class="vlrb-logo">
@@ -634,22 +634,22 @@ layout: default
   <p class="section-subtitle">Everything you might want to know</p>
 
   <article class="faq-item">
-    <h4>How is vlrb different from other video apps?</h4>
+    <h3>How is vlrb different from other video apps?</h3>
     <p>We're not trying to be a social network. vlrb is for the conversations that matter most, the ones you'd have over a cup of tea or a long phone call. No followers, no feeds, just genuine connection with the people you choose.</p>
   </article>
 
   <article class="faq-item">
-    <h4>Will videos fill up my phone?</h4>
+    <h3>Will videos fill up my phone?</h3>
     <p>We work hard to minimize our footprint. vlrbs go straight to the cloud—not your camera roll—and expire automatically, so they won't pile up. You can still save your favorites locally if you want. While a completely full phone can still block recording, vlrb is designed to stay as light as possible.</p>
   </article>
 
   <article class="faq-item">
-    <h4>What happens when videos expire?</h4>
+    <h3>What happens when videos expire?</h3>
     <p>Like letters that find their time, expired vlrbs are gently removed from our servers. With our Storyteller tier, you can choose when that happens. We recommend saving anything truly precious to your camera roll.</p>
   </article>
 
   <article class="faq-item">
-    <h4>Is my content private?</h4>
+    <h3>Is my content private?</h3>
     <p>Completely. Your vlrbs travel safely between you and your recipients, like sealed letters. We don't peek, we don't analyze, and we certainly don't share. Your moments are yours alone.</p>
   </article>
 </section>
@@ -659,4 +659,4 @@ layout: default
   <p>Open vlrb and start capturing moments. No account needed, just open and record.</p>
   <a href="{{ site.app_store_url }}" class="cta-button">vlrb Your People</a>
 </div>
-</main>
+</div>
