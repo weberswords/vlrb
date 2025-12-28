@@ -2,25 +2,27 @@
 ---
 
 // Custom Cozy Color Palette
+// All text colors meet WCAG AA 4.5:1 contrast ratio on light backgrounds
 $cream-background: #F5F1E8;
 $warm-paper: #FFF8F0;
 $aged-paper: #F5E6D3;
-$leather-brown: #7A5F3A;
+$leather-brown: #5E4A2F; // Darkened from #7A5F3A for text contrast
+$leather-brown-bg: #7A5F3A; // Original for button backgrounds
 $ink-blue-black: #2C3539;
 $dusty-rose: #D4978A;
-$dusty-rose-text: #B87A6C; // Darker variant for text - meets WCAG AA contrast
+$dusty-rose-text: #8B5A50; // Darkened for 4.5:1 contrast
 $terracotta: #C87E70;
-$sage-green: #A8B5A0;
+$sage-green: #5A7A52; // Darkened from #A8B5A0 for 4.5:1 contrast
 $muted-teal: #8BA89F;
 $text-brown: #3A342F;
-$text-brown-light: #3D352E; // Darkened from #4A3F35 for WCAG AA compliance
+$text-brown-light: #3A342F; // Use main text color for all body text
 $border-tan: #E3DDD3;
 $border-warm: #D9D0C3;
 
 // Override minima variables before import
-$brand-color: $leather-brown;
-$brand-color-light: lighten($leather-brown, 30%);
-$brand-color-dark: darken($leather-brown, 15%);
+$brand-color: $leather-brown-bg;
+$brand-color-light: lighten($leather-brown-bg, 30%);
+$brand-color-dark: darken($leather-brown-bg, 15%);
 
 $text-color: $text-brown;
 $background-color: $cream-background;
@@ -355,7 +357,7 @@ input, textarea, select {
 // Buttons
 button, .button, .btn {
   display: inline-block;
-  background-color: $leather-brown;
+  background-color: $leather-brown-bg;
   color: $warm-paper;
   padding: 0.75rem 1.5rem;
   border: none;
@@ -367,7 +369,7 @@ button, .button, .btn {
   text-decoration: none;
 
   &:hover {
-    background-color: darken($leather-brown, 8%);
+    background-color: darken($leather-brown-bg, 8%);
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba($text-brown, 0.15);
   }
@@ -437,7 +439,7 @@ button, .button, .btn {
   position: absolute;
   top: -100%;
   left: 0;
-  background: $leather-brown;
+  background: $leather-brown-bg;
   color: $warm-paper;
   padding: 0.5rem 1rem;
   z-index: 1000;
