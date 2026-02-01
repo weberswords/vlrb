@@ -4,7 +4,7 @@
       "details": [
         {
           "appID": "H7GP37J56F.com.studiowonw.albondigas",
-          "paths": ["*"]
+          "paths": ["*", "/invite"]
         }
       ]
     },
