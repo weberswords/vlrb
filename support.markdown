@@ -117,6 +117,11 @@ Currently, you can add captions. Filters and effects are on our roadmap for futu
 3. Restart the app
 4. Check if other camera apps work
 
+### My recording stops when I receive a video in the same chat
+This is a known issue where receiving a video message while actively recording in the same conversation can cancel your recording and return you to the chat view. We are working on a fix. In the meantime:
+- Try recording your vlrb before opening the conversation, then select the recipient after
+- If your recording is interrupted, you will need to re-record
+
 ## Contact Support
 
 Still need help? We're here for you!
