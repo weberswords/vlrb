@@ -117,6 +117,10 @@ Currently, you can add captions. Filters and effects are on our roadmap for futu
 3. Restart the app
 4. Check if other camera apps work
 
+## Service Status
+
+Having trouble? Check our [status page]({{ "/status/" | relative_url }}) for known issues and updates.
+
 ## Contact Support
 
 Still need help? We're here for you!
