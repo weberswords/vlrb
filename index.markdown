@@ -117,6 +117,25 @@ layout: default
     transform: translateY(0);
   }
 
+  /* Invite-Only Beta Badge */
+  .beta-badge {
+    display: inline-block;
+    background: var(--aged-paper);
+    color: var(--leather-brown);
+    padding: 0.85rem 1.75rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid var(--border-warm);
+    box-shadow: 0 2px 8px rgba(122, 95, 58, 0.1);
+  }
+
+  .beta-note {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-brown-light);
+  }
+
   /* Decorative Divider */
   .section-divider {
     display: flex;
@@ -515,7 +534,8 @@ layout: default
   <h1>vlrb</h1>
   <p class="tagline">Video blurbs for the people you love</p>
   <p class="subtitle">A vlrb <em>(say it like "blurb" with a v)</em> is a quick video message—the moments that text can't capture, for the people who matter most. Like passing a note to a dear friend.</p>
-  <a href="{{ site.app_store_url }}" class="cta-button">vlrb Your People</a>
+  <span class="beta-badge">🔒 Invite-Only Beta</span>
+  <p class="beta-note">vlrb is currently in a private, invite-only beta.</p>
 </div>
 
 <div class="section-divider" aria-hidden="true">
@@ -657,7 +677,7 @@ layout: default
 
 <div class="closing">
   <h2>Ready to vlrb your people?</h2>
-  <p>Open vlrb and start capturing moments. No account needed, just open and record.</p>
-  <a href="{{ site.app_store_url }}" class="cta-button">vlrb Your People</a>
+  <p>vlrb is currently in an invite-only beta. Got an invite? Open vlrb and start capturing moments.</p>
+  <span class="beta-badge">🔒 Invite-Only Beta</span>
 </div>
 </div>
