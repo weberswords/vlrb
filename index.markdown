@@ -136,6 +136,44 @@ layout: default
     color: var(--text-brown-light);
   }
 
+  /* Inline SVG icon set (Feather/Lucide style, matches verify page) */
+  .feature-icon svg,
+  .tier-icon svg,
+  .section-divider .icon svg,
+  .beta-badge svg {
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .feature-icon svg {
+    width: 24px;
+    height: 24px;
+    stroke: var(--leather-brown);
+  }
+
+  .tier-icon svg {
+    width: 30px;
+    height: 30px;
+    stroke: var(--dusty-rose-dark);
+  }
+
+  .section-divider .icon svg {
+    width: 18px;
+    height: 18px;
+    stroke: var(--dusty-rose-dark);
+    display: block;
+  }
+
+  .beta-badge svg {
+    width: 18px;
+    height: 18px;
+    stroke: currentColor;
+    vertical-align: -3px;
+    margin-right: 0.4rem;
+  }
+
   /* Decorative Divider */
   .section-divider {
     display: flex;
@@ -534,12 +572,12 @@ layout: default
   <h1>vlrb</h1>
   <p class="tagline">Video blurbs for the people you love</p>
   <p class="subtitle">A vlrb <em>(say it like "blurb" with a v)</em> is a quick video message—the moments that text can't capture, for the people who matter most. Like passing a note to a dear friend.</p>
-  <span class="beta-badge">🔒 Invite-Only Beta</span>
+  <span class="beta-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Invite-Only Beta</span>
   <p class="beta-note">vlrb is currently in a private, invite-only beta.</p>
 </div>
 
 <div class="section-divider" aria-hidden="true">
-  <span class="icon">✨</span>
+  <span class="icon"><svg viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></span>
 </div>
 
 <section class="features-section">
@@ -548,25 +586,25 @@ layout: default
 
   <div class="features">
     <article class="feature">
-      <div class="feature-icon">☁️</div>
+      <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
       <h3>Designed to stay light on your phone</h3>
       <p>vlrbs go straight to the cloud—not your camera roll—and expire after a set time. We do everything we can to keep your storage free for what matters most.</p>
     </article>
 
     <article class="feature">
-      <div class="feature-icon">🕰️</div>
+      <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
       <h3>Take your time</h3>
       <p>Say everything you need to say. Share videos up to 10 minutes long, because some stories need room to breathe.</p>
     </article>
 
     <article class="feature">
-      <div class="feature-icon">💛</div>
+      <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
       <h3>Real connection</h3>
       <p>See their smile. Hear their laugh. Share the warmth that only face-to-face can bring, even from far away.</p>
     </article>
 
     <article class="feature">
-      <div class="feature-icon">🔒</div>
+      <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
       <h3>Just between us</h3>
       <p>Your moments stay private. No public feeds, no algorithms, no ads. Just the people you choose to share with.</p>
     </article>
@@ -574,7 +612,7 @@ layout: default
 </section>
 
 <div class="section-divider" aria-hidden="true">
-  <span class="icon">✨</span>
+  <span class="icon"><svg viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></span>
 </div>
 
 <section class="promise">
@@ -588,7 +626,7 @@ layout: default
 </section>
 
 <div class="section-divider" aria-hidden="true">
-  <span class="icon">✨</span>
+  <span class="icon"><svg viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></span>
 </div>
 
 <section class="pricing">
@@ -597,7 +635,7 @@ layout: default
 
   <div class="pricing-tiers" role="list" aria-label="Subscription tiers">
     <article class="tier" role="listitem" aria-labelledby="storyteller-tier">
-      <div class="tier-icon" aria-hidden="true">✨</div>
+      <div class="tier-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg></div>
       <h3 id="storyteller-tier">Storyteller</h3>
       <p class="tier-tagline">For the moments that need more time</p>
       <div class="price">{{ site.creator_price_monthly }}<span class="period">/month</span></div>
@@ -612,7 +650,7 @@ layout: default
     </article>
 
     <article class="tier featured" role="listitem" aria-labelledby="supporter-tier">
-      <div class="tier-icon" aria-hidden="true">☕</div>
+      <div class="tier-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div>
       <h3 id="supporter-tier">Supporter</h3>
       <p class="tier-tagline">Stay connected your way</p>
       <div class="price">{{ site.supporter_price_monthly }}<span class="period">/month</span></div>
@@ -629,7 +667,7 @@ layout: default
     </article>
 
     <article class="tier" role="listitem" aria-labelledby="free-tier">
-      <div class="tier-icon" aria-hidden="true">🌱</div>
+      <div class="tier-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg></div>
       <h3 id="free-tier">Free</h3>
       <p class="tier-tagline">Everything you need to connect</p>
       <div class="price">$0<span class="period"> forever</span></div>
@@ -647,7 +685,7 @@ layout: default
 </section>
 
 <div class="section-divider" aria-hidden="true">
-  <span class="icon">✨</span>
+  <span class="icon"><svg viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></span>
 </div>
 
 <section class="faq">
@@ -678,6 +716,6 @@ layout: default
 <div class="closing">
   <h2>Ready to vlrb your people?</h2>
   <p>vlrb is currently in an invite-only beta. Got an invite? Open vlrb and start capturing moments.</p>
-  <span class="beta-badge">🔒 Invite-Only Beta</span>
+  <span class="beta-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Invite-Only Beta</span>
 </div>
 </div>
