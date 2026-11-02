@@ -6,7 +6,7 @@ permalink: /terms/
 
 # Terms and Conditions for vlrb
 
-*Last updated: November 29, 2025*
+*Last updated: November 2, 2026*
 
 ## 1. Agreement to Terms
 
@@ -84,13 +84,27 @@ We strive to be good stewards of your device space. We optimize storage usage an
 You agree not to share content that:
 - Is illegal, harmful, or offensive
 - Violates intellectual property rights
-- Contains malware or spam
+- Contains malware, spam, or scams
 - Impersonates others
-- Harasses or threatens others
-- Is sexually explicit involving minors
+- Bullies, harasses, or threatens others
+- Promotes violence, or encourages anyone to hurt themselves or others
+- Attacks people for who they are, such as their race, religion, gender, sexuality, or disability
+- Contains nudity or sexual content the recipient didn't agree to receive
+- Sexualizes, exploits, or endangers a minor in any way
+
+We have zero tolerance for child sexual abuse material. We report it to the National Center for Missing & Exploited Children (NCMEC) as US law requires, and close the account that sent it.
+
+### Reporting and Blocking
+You can report a person or a video, and block anyone, from inside the App. [Our Safety page]({{ '/safety/' | relative_url }}) explains how. If you can't use the App, email {{ site.safety_email }}.
+
+- The person you report is never told that you reported them.
+- A person at vlrb reviews every report. Reports never cause action on their own.
+- We review reports about self-harm, threats of violence, or a child at risk within 24 hours, and all other reports within 3 days.
+- Your videos are end-to-end encrypted, so we can see a reported video only if the person reporting chooses to share it. A shared video is seen only by the vlrb team and used only to review that report.
+- Knowingly making false reports violates these Terms.
 
 ### Content Removal
-We reserve the right to remove content that violates these Terms without notice.
+We may remove content or limit, suspend, or close an account that violates these Terms. When we do, we tell you which rule was broken, unless the law or someone's safety prevents it, and you can ask us to look again by emailing {{ site.safety_email }}. We never tell you who reported you.
 
 ## 7. Acceptable Use
 

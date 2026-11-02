@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy for vlrb
 
-*Last updated: November 29, 2025*
+*Last updated: November 2, 2026*
 
 ## Introduction
 
@@ -79,8 +79,12 @@ We do not sell, trade, or rent your personal information. We may share your info
 1. **With Your Consent**: When you explicitly agree to share
 2. **With Recipients**: Videos are shared only with users you specifically select
 3. **Service Providers**: Third-party services that help us operate (e.g., Firebase for infrastructure)
-4. **Legal Requirements**: When required by law or to protect rights and safety
+4. **Legal Requirements**: When required by law or to protect rights and safety, including reporting child sexual abuse material to the National Center for Missing & Exploited Children (NCMEC)
 5. **Business Transfers**: In connection with a merger or acquisition
+
+## Reports
+
+When you report someone, we store the report: your account ID, the reported person's account ID, the reason, your note if you add one, and for a video, which chat and message it's about. If you choose to include the video, your phone sends us a decrypted copy. This is the only time a video leaves end-to-end encryption, and only because someone in the chat chose to share it. Only the vlrb team can see reports and shared videos, and we use them only to review the report. The person you report isn't told who reported them. We keep reports and shared videos while we review them and act on them, and longer when the law requires it, such as for child safety reports. Reports may be kept after either account is closed, so we can keep people safe. See [Safety]({{ '/safety/' | relative_url }}).
 
 ## Data Storage and Security
 
@@ -121,6 +125,7 @@ Each service has its own privacy policy governing the use of your information.
 - **Supporter/Storyteller accounts**: Videos expire based on your custom settings (up to 14 days for Supporter, up to 1 year for Storyteller)
 - **Account data**: Retained until you delete your account
 - **Deleted content**: Removed from our servers within 30 days
+- **Reports**: See [Reports](#reports)
 
 ## California Privacy Rights
 
