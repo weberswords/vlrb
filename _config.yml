@@ -18,6 +18,9 @@ plugins:
 # Custom variables
 app_store_url: "https://apps.apple.com/app/vlrb" # Update with actual URL
 support_email: "support@vlrb.app"
+# Where safety reports, appeals, and legal requests go. Reports from the app
+# also notify this address (albondigas-functions reports.js).
+safety_email: "support@vlrb.app"
 company_name: "studio w labs"
 company_address: "732 S 6TH ST, STE R, LAS VEGAS, NV 89101"
 supporter_price_monthly: "$4.99"

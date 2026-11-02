@@ -49,13 +49,19 @@ Common issues:
 Only the specific people you send them to. vlrb does not include functionality to forward vlrbs outside the app. However, the user you send your video to could download it and send it elsewhere.
 
 ### Are my vlrbs encrypted?
-Yes! All vlrbs are protected with end-to-end encryption. Your videos are encrypted both in transit and at rest on our servers. We cannot view your content.
+Yes! All vlrbs are protected with end-to-end encryption. Your videos are encrypted both in transit and at rest on our servers. We cannot view your content. The one exception is a video someone in the chat chooses to share with us when they report it; see [Safety]({{ '/safety/' | relative_url }}).
 
 <!-- ### Can I delete a vlrb after sending?
 You can delete vlrbs from your own device, but you cannot remove them from recipients' devices if they've already viewed or saved them. -->
 
-<!-- ### Can I block someone?
-Yes. Go to Settings > Privacy > Blocked Users. Blocked users cannot send you vlrbs or see your online status. -->
+### How do I report someone?
+Touch and hold a video they sent you and tap **Report Video…**, or open their profile (touch and hold their name in your chat list, then tap **View Profile**) and tap **Report**. They're never told who reported them. [Our Safety page]({{ '/safety/' | relative_url }}) has the full steps and what happens next. If you can't use the app, email {{ site.safety_email }}.
+
+### Can I block someone?
+Yes. Open their profile and tap **Block User**. Blocked people can't send you vlrbs or friend requests, and they aren't told. To see or undo blocks, go to **Settings** > **Privacy & Security** > **Blocked Users**.
+
+### If someone is in danger
+Call your local emergency number first. In the US, call or text 988 for the Suicide & Crisis Lifeline. A report reaches a person at vlrb, but not instantly.
 
 ## Subscriptions & Billing
 
