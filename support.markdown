@@ -17,11 +17,11 @@ permalink: /support/
 
 ### How long can my videos be?
 - **Free**: Up to 5 minutes per vlrb
-- **Supporter**: Up to 5 minutes per vlrb (with 3 bonus +1 minute boosts per week)
-- **Storyteller**: Up to 10 minutes per vlrb with unlimited +1 minute boosts
+- **Supporter**: Up to 5 minutes per vlrb, plus 3 +1 minute boosts per week
+- **Storyteller**: Up to 10 minutes per vlrb, plus unlimited +1 minute boosts
 
 ### What is a "+1 minute boost"?
-When you're recording and approaching your time limit, you can tap "+1 minute" to extend your recording:
+When you're recording and approaching your time limit, you can tap "+1 minute" to extend your recording. You can use one boost per vlrb.
 - **Supporter**: 3 boosts per week
 - **Storyteller**: Unlimited boosts
 
@@ -31,7 +31,7 @@ When you're recording and approaching your time limit, you can tap "+1 minute" t
 vlrbs go straight to the cloud—not your camera roll—and expire automatically, so they won't pile up on your device. You can clear your local cache anytime in settings, and re-download videos by watching them. While a completely full phone can still block recording, vlrb is designed to stay as light as possible.
 
 ### Can I save vlrbs permanently?
-Yes! You can save any vlrb to your camera roll by tapping the download button. Storyteller subscribers can also set custom expiration times. Videos can be stored in the cloud for up to 1 year.
+Yes! You can save any vlrb to your camera roll by tapping the download button, on every plan. In each chat's settings, subscribers can also choose how long vlrbs stay in the cloud: up to 14 days with Supporter, or up to 1 year with Storyteller. On Free, vlrbs stay for 7 days.
 
 ### What happens to expired vlrbs?
 Expired vlrbs are automatically deleted from our servers and cannot be recovered. Make sure to save any vlrbs you want to keep before they expire.
@@ -85,8 +85,8 @@ No. Your existing vlrbs remain accessible. You'll only lose access to premium fe
 
 ## Features
 
-### What is "Live Now"?
-When you're active in the app, your friends can see that you're online. It's a simple way to know when someone might be available for a quick vlrb exchange. (Supporter and Storyteller only)
+### What does "Online" mean?
+When a friend has vlrb open, their chat shows "Online." It's a simple way to know when someone might be available for a quick vlrb exchange. Supporter and Storyteller subscribers can see when friends are online. To hide your own status, go to **Settings** > **Privacy & Security** and turn on **Hide my online status**.
 
 ### What is Picture-in-Picture?
 Supporter and Storyteller subscribers can continue watching vlrbs while using other apps. The video plays in a small, movable window. (iOS 14+ required)

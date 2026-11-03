@@ -56,7 +56,7 @@ We built vlrb on a simple principle: your moments belong to you.
 • No ads. Ever. We're funded by subscriptions, not surveillance.
 • We don't sell your data or analyze your content
 • No tracking across other apps
-• You control how long messages stay—from 7 days to 1 year
+• You choose how long videos stay: 7 days on Free, up to 14 days with Supporter, up to 1 year with Storyteller
 • Delete your account and all your data anytime
 
 This isn't just a policy. It's a promise. If we ever can't sustain this model, we'll shut vlrb down rather than compromise your privacy.
@@ -76,7 +76,8 @@ vlrb Free
 • Videos up to 5 minutes
 • All playback speeds (0.5x–3x)
 • 7-day message retention
-• 2 beautiful themes
+• Save any video to Photos
+• 3 themes
 • End-to-end encryption
 • Cloud storage included
 
@@ -87,12 +88,14 @@ vlrb Supporter — $4.99/month or $49.99/year
 • See when friends are online
 • Picture-in-Picture mode
 • Friend nicknames
+• The Greenhouse theme
 
 vlrb Storyteller — $9.99/month or $99.99/year
 • Everything in Supporter
 • Videos up to 10 minutes
 • Unlimited video extensions
 • Up to 1 year message retention
+• The Transit theme
 
 BUILT FOR EVERYONE
 
@@ -112,7 +115,7 @@ Some things are too important for a text message, too personal for a public post
 Made with care by studio w labs.
 Questions? Visit weberswords.github.io/vlrb/support
 ```
-(2,989 characters)
+(3,243 characters)
 
 ---
 
