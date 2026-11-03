@@ -353,15 +353,6 @@ layout: default
     background: linear-gradient(to bottom, var(--warm-paper) 0%, rgba(212, 151, 138, 0.05) 100%);
   }
 
-  .coming-soon {
-    font-size: 0.85rem;
-    color: var(--text-brown-light);
-    font-style: italic;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px dashed var(--border-tan);
-  }
-
   .tier-icon {
     font-size: 2rem;
     margin-bottom: 0.75rem;
@@ -594,7 +585,7 @@ layout: default
     <article class="feature">
       <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
       <h3>Take your time</h3>
-      <p>Say everything you need to say. Share videos up to 10 minutes long, because some stories need room to breathe.</p>
+      <p>Say everything you need to say. Share videos up to 5 minutes long, or 10 minutes with Storyteller, because some stories need room to breathe.</p>
     </article>
 
     <article class="feature">
@@ -645,8 +636,8 @@ layout: default
         <li>Record up to 10 minutes</li>
         <li>Unlimited video extensions</li>
         <li>Messages kept up to 1 year</li>
+        <li>The Transit theme</li>
       </ul>
-      <p class="coming-soon">Coming soon: 4 extra themes, Groups, 3 Gift Passes/year</p>
     </article>
 
     <article class="tier featured" role="listitem" aria-labelledby="supporter-tier">
@@ -662,8 +653,8 @@ layout: default
         <li>Picture-in-Picture mode</li>
         <li>Friend nicknames</li>
         <li>Messages kept up to 14 days</li>
+        <li>The Greenhouse theme</li>
       </ul>
-      <p class="coming-soon">Coming soon: 2 extra themes, Groups, 1 Gift Pass/year</p>
     </article>
 
     <article class="tier" role="listitem" aria-labelledby="free-tier">
@@ -677,6 +668,7 @@ layout: default
         <li>5-minute recording limit</li>
         <li>All playback speeds (0.5x–3x)</li>
         <li>7-day message history</li>
+        <li>Save any video to Photos</li>
         <li>End-to-end encryption</li>
         <li>Full accessibility support</li>
       </ul>
@@ -704,7 +696,7 @@ layout: default
 
   <article class="faq-item">
     <h3>What happens when videos expire?</h3>
-    <p>Like letters that find their time, expired vlrbs are gently removed from our servers. With our Storyteller tier, you can choose when that happens. We recommend saving anything truly precious to your camera roll.</p>
+    <p>Like letters that find their time, expired vlrbs are gently removed from our servers. With Supporter or Storyteller, you can choose how long they stay in each chat: up to 14 days with Supporter, or up to a year with Storyteller. We recommend saving anything truly precious to your camera roll.</p>
   </article>
 
   <article class="faq-item">
